@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col h-screen">
-      <Header />
+      <Header onHomeClick={() => setSelectedModuleId(null)} />
       <div className="flex flex-1 overflow-hidden">
         <Sidebar
           selectedModuleId={selectedModuleId}

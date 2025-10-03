@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import Quiz from "@/components/Quiz";
 import Link from "next/link";
 
@@ -12,6 +13,35 @@ export const DesignThinkingContent = () => {
         <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Einführung in Design Thinking</h2>
         
         <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Was ist Design Thinking?</h3>
+        <div className="text-gray-700 space-y-4 mb-6">
+          <p>
+            Design Thinking lässt sich als eine Philosophie und ein Werkzeugkasten zur kreativen Problemlösung definieren. Es ist ein Ansatz, der häufig verwendet wird, um Innovationen zu schaffen und komplexe Probleme zu bewältigen.
+          </p>
+          <div className="bg-white border border-gray-200 rounded-xl p-4">
+            <h4 className="font-semibold text-gray-900 mb-2">Zentrale Merkmale</h4>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                <strong>Menschzentriertheit (Human-Centered Design):</strong> Problemlösung durch die Linse des Menschen. Empathie für die Zielgruppe entwickeln, Bedürfnisse verstehen und darauf basierend Lösungen finden.
+              </li>
+              <li>
+                <strong>Iterativer Fünf-Schritte-Zyklus:</strong> Der Prozess besteht aus fünf Kernphasen, die einen fortlaufenden Zyklus bilden:
+                <ul className="list-disc pl-5 mt-1 space-y-1">
+                  <li><strong>Empathize</strong> (Verstehen der Benutzer)</li>
+                  <li><strong>Define</strong> (Probleme und Bedürfnisse definieren)</li>
+                  <li><strong>Ideate</strong> (Ideen und Lösungen entwickeln)</li>
+                  <li><strong>Prototype</strong> (Einfache, testbare Prototypen erstellen)</li>
+                  <li><strong>Test</strong> (Mit echten Benutzern testen; Rückkehr zur Define-Phase)</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Flexibilität:</strong> Kein starres Rezept, sondern eine flexible Philosophie und Denkweise. Die konkreten Übungen pro Phase sind anpassbar und hängen von der Person ab, die den Prozess leitet.
+              </li>
+            </ul>
+            <p className="mt-3 text-sm text-gray-600">
+              Design Thinking wird weltweit von fast jedem innovativen Unternehmen genutzt und ist seit etwa 20 Jahren relevant.
+            </p>
+          </div>
+        </div>
         
         <div className="bg-gradient-to-r from-primary-start/10 to-primary-end/10 rounded-xl p-6 mb-4">
           <h4 className="font-semibold text-gray-900 mb-3">Warum Design Thinking für PMs?</h4>
@@ -101,6 +131,36 @@ export const DesignThinkingContent = () => {
             ],
             correctAnswer: 1,
             explanation: "Design Thinking fördert spielerisches und unkonventionelles Denken, um die Entwicklung neuer Produkte zu unterstützen."
+          },
+          {
+            question: "Wie lässt sich Design Thinking am besten beschreiben?",
+            options: [
+              "Als starres Projektmanagement-Framework mit festen Regeln",
+              "Als Philosophie und Werkzeugkasten zur kreativen Problemlösung",
+              "Als reines UX-Testing-Verfahren am Ende der Entwicklung"
+            ],
+            correctAnswer: 1,
+            explanation: "Design Thinking ist eine Philosophie und ein Werkzeugkasten zur kreativen Problemlösung, häufig genutzt, um Innovationen zu schaffen."
+          },
+          {
+            question: "Welche der folgenden Reihenfolgen bildet den fünfstufigen Zyklus korrekt ab?",
+            options: [
+              "Discover → Design → Develop → Deliver → Deploy",
+              "Empathize → Define → Ideate → Prototype → Test",
+              "Research → Build → Measure → Learn → Scale"
+            ],
+            correctAnswer: 1,
+            explanation: "Die fünf Phasen sind Empathize, Define, Ideate, Prototype und Test in einem iterativen Zyklus."
+          },
+          {
+            question: "Welche Aussage zur Flexibilität von Design Thinking ist korrekt?",
+            options: [
+              "Design Thinking ist ein starres Rezept mit unveränderlichen Übungen",
+              "Design Thinking ist flexibel; Übungen sind anpassbar je nach Facilitator",
+              "Design Thinking darf nur in der Reihenfolge Ideate → Prototype → Test verwendet werden"
+            ],
+            correctAnswer: 1,
+            explanation: "Design Thinking ist keine starre Methode, sondern flexibel; Übungen je Phase lassen sich an Ziel und Team anpassen."
           }
         ]}
       />
@@ -140,6 +200,16 @@ export const DesignThinkingContent = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
+            />
+          </div>
+          <div className="mt-6">
+            <Image
+              src="/assets/double-diamont.png"
+              alt="Double Diamond Modell"
+              className="w-full h-auto rounded-lg shadow"
+              width={1600}
+              height={900}
+              priority
             />
           </div>
         </div>

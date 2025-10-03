@@ -2,8 +2,8 @@
 
 import React from "react";
 import { modules } from "@/lib/modules";
-import { BookOpen } from "lucide-react";
 import { DesignThinkingContent } from "@/lib/content/design-thinking";
+import Image from "next/image";
 
 interface ContentAreaProps {
   selectedModuleId: string | null;
@@ -62,8 +62,14 @@ export default function ContentArea({ selectedModuleId }: ContentAreaProps) {
       <main className="flex-1 bg-gray-50 overflow-y-auto">
         <div className="container mx-auto px-8 py-12">
           <div className="flex flex-col items-center justify-center min-h-[60vh] text-center">
-            <div className="bg-gradient-primary rounded-2xl p-6 mb-6">
-              <BookOpen className="h-16 w-16 text-white" />
+            <div className="rounded-2xl mb-6">
+              <Image
+                src="/assets/logo-pm.svg"
+                alt="PM Lernplattform Logo"
+                width={180}
+                height={180}
+                priority
+              />
             </div>
             <h2 className="text-3xl font-semibold text-gray-900 mb-3">
               Willkommen zur Lernplattform
