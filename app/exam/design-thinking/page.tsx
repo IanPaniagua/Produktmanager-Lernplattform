@@ -55,7 +55,71 @@ export default function DesignThinkingExamPage() {
               correctAnswer: 1,
               explanation: "Design Thinking fördert spielerisches und unkonventionelles Denken, um die Entwicklung neuer Produkte zu unterstützen."
             },
-            // Quiz 2: Double Diamond
+            {
+              question: "Wie lässt sich Design Thinking am besten beschreiben?",
+              options: [
+                "Als starres Projektmanagement-Framework mit festen Regeln",
+                "Als Philosophie und Werkzeugkasten zur kreativen Problemlösung",
+                "Als reines UX-Testing-Verfahren am Ende der Entwicklung"
+              ],
+              correctAnswer: 1,
+              explanation: "Design Thinking ist eine Philosophie und ein Werkzeugkasten zur kreativen Problemlösung, häufig genutzt, um Innovationen zu schaffen."
+            },
+            {
+              question: "Welche der folgenden Reihenfolgen bildet den fünfstufigen Zyklus korrekt ab?",
+              options: [
+                "Discover → Design → Develop → Deliver → Deploy",
+                "Empathize → Define → Ideate → Prototype → Test",
+                "Research → Build → Measure → Learn → Scale"
+              ],
+              correctAnswer: 1,
+              explanation: "Die fünf Phasen sind Empathize, Define, Ideate, Prototype und Test in einem iterativen Zyklus."
+            },
+            {
+              question: "Welche Aussage zur Flexibilität von Design Thinking ist korrekt?",
+              options: [
+                "Design Thinking ist ein starres Rezept mit unveränderlichen Übungen",
+                "Design Thinking ist flexibel; Übungen sind anpassbar je nach Facilitator",
+                "Design Thinking darf nur in der Reihenfolge Ideate → Prototype → Test verwendet werden"
+              ],
+              correctAnswer: 1,
+              explanation: "Design Thinking ist keine starre Methode, sondern flexibel; Übungen je Phase lassen sich an Ziel und Team anpassen."
+            },
+            // Quiz 2: Design Thinking Prinzipien
+            {
+              question: "Was bedeutet 'Menschenzentriert' im Kontext von Design Thinking?",
+              options: [
+                "Fokus auf die Bedürfnisse, Wünsche und Erfahrungen der Nutzer",
+                "Fokus auf die Hierarchie im Team",
+                "Fokus auf technische Perfektion",
+                "Fokus auf Gewinnmaximierung"
+              ],
+              correctAnswer: 0,
+              explanation: "Beim Design Thinking geht es um die Bedürfnisse, Wünsche und Erfahrungen der Nutzer - der Mensch steht im Zentrum."
+            },
+            {
+              question: "Warum ist Kooperation ein wichtiges Prinzip im Design Thinking?",
+              options: [
+                "Um Kosten zu sparen",
+                "Weil vielfältige Teams mit unterschiedlichen Fähigkeiten bessere Lösungen entwickeln",
+                "Um Entscheidungen schneller zu treffen",
+                "Um Verantwortung zu verteilen"
+              ],
+              correctAnswer: 1,
+              explanation: "Design Thinking erfordert die Zusammenarbeit mit einem vielfältigen Team mit unterschiedlichen Fähigkeiten und Hintergründen, was zu besseren Lösungen führt."
+            },
+            {
+              question: "Was bedeutet das Prinzip 'Aktion vor Analyse'?",
+              options: [
+                "Keine Planung ist notwendig",
+                "Handeln und Experimentieren hat Vorrang vor perfekter Planung",
+                "Analyse ist unwichtig",
+                "Schnelligkeit ist wichtiger als Qualität"
+              ],
+              correctAnswer: 1,
+              explanation: "Design Thinking stellt Handeln und Experimentieren über Analyse und Planung und ermöglicht es den Teams, Ideen schnell zu testen und zu überarbeiten."
+            },
+            // Quiz 3: Double Diamond
             {
               question: "Was beschreibt der Double Diamond im Kontext von Design Thinking?",
               options: [
@@ -106,7 +170,7 @@ export default function DesignThinkingExamPage() {
               correctAnswer: 2,
               explanation: "In der Praxis wird häufig eine Iteration pro Phase angesetzt, während die Lehrmeinung mehrere Wiederholungen vorsieht."
             },
-            // Quiz 3: Prinzipien & Double Diamond
+            // Quiz 4: Prinzipien & Double Diamond
             {
               question: "Welches ist KEIN Prinzip von Design Thinking?",
               options: [
@@ -136,6 +200,117 @@ export default function DesignThinkingExamPage() {
               ],
               correctAnswer: 1,
               explanation: "Man startet mit einem 'Beginners Mind' und der Haltung, dass man nichts weiß, um offen für neue Erkenntnisse zu sein."
+            },
+            // Quiz 5: Die 5 Schritte des Design Thinking
+            {
+              question: "Was ist das Hauptziel der Empathize-Phase?",
+              options: [
+                "Eine finale Lösung definieren",
+                "Die Bedürfnisse und Perspektiven der Nutzer verstehen",
+                "Ein MVP bauen",
+                "Ein Business-Case erstellen"
+              ],
+              correctAnswer: 1,
+              explanation: "In Empathize geht es darum, die Nutzer zu verstehen und ihre Bedürfnisse durch Interviews, Beobachtungen, etc. zu erfassen."
+            },
+            {
+              question: "Welches Artefakt passt typischerweise in die Define-Phase?",
+              options: [
+                "Affinity Map und HMW-Statements",
+                "Click-Dummy",
+                "Go-To-Market-Plan",
+                "A/B-Testergebnis"
+              ],
+              correctAnswer: 0,
+              explanation: "In Define werden Erkenntnisse strukturiert (z.B. Affinity Maps) und Probleme als HMW-Statements formuliert."
+            },
+            {
+              question: "Welche Regel ist für die Ideate-Phase besonders wichtig?",
+              options: [
+                "Ideen sofort bewerten",
+                "Nur eine Idee erzeugen",
+                "Quantität vor Qualität, keine Bewertung während der Generierung",
+                "Nur Experten brainstormen lassen"
+              ],
+              correctAnswer: 2,
+              explanation: "Während Ideate werden möglichst viele Ideen generiert, ohne diese gleichzeitig zu bewerten."
+            },
+            {
+              question: "Was ist typisch für einen Low-Fidelity-Prototyp?",
+              options: [
+                "Pixelperfekte Visuals",
+                "Einfache, schnelle Skizzen zur schnellen Iteration",
+                "Komplette Backend-Integration",
+                "Produktionsreifer Code"
+              ],
+              correctAnswer: 1,
+              explanation: "Low-Fidelity-Prototypen sind schnell erstellt, günstig und ideal für frühes Feedback."
+            },
+            {
+              question: "Welcher Zweck hat die Test-Phase?",
+              options: [
+                "Marketing-Budget erhöhen",
+                "Annahmen zur Lösung validieren und Nutzbarkeit prüfen",
+                "Design-System dokumentieren",
+                "Roadmap finalisieren"
+              ],
+              correctAnswer: 1,
+              explanation: "In Test werden Annahmen validiert und die Benutzerfreundlichkeit mit echten Nutzern geprüft."
+            },
+            {
+              question: "Welche Methode gehört NICHT primär zur Empathize-Phase?",
+              options: [
+                "User Interviews",
+                "Feldbeobachtungen",
+                "Usability-Tests eines fertigen Produkts",
+                "Journey Mapping zur Verständnisbildung"
+              ],
+              correctAnswer: 2,
+              explanation: "Usability-Tests werden typischerweise später mit Prototypen oder Produkten durchgeführt."
+            },
+            {
+              question: "Was ist ein gutes Ergebnis der Define-Phase?",
+              options: [
+                "Ein priorisiertes Backlog",
+                "Ein klar formuliertes Problem-Statement (z.B. HMW)",
+                "Ein MVP-Launch",
+                "Ein detailliertes UI-Design"
+              ],
+              correctAnswer: 1,
+              explanation: "Define führt zu Klarheit über das Problem, u.a. in Form von HMW-Statements."
+            },
+            {
+              question: "Welche Ideation-Technik zielt darauf, schnell viele Varianten zu skizzieren?",
+              options: [
+                "Usability-Testing",
+                "Crazy 8s",
+                "Unit Testing",
+                "Roadmapping"
+              ],
+              correctAnswer: 1,
+              explanation: "Crazy 8s erzeugt 8 verschiedene Ideen in 8 Minuten und fördert Divergenz."
+            },
+            {
+              question: "Welcher Vorteil ist typisch für High-Fidelity-Prototypen?",
+              options: [
+                "Sehr schnell zu erstellen",
+                "Ermöglichen realitätsnäheres Feedback",
+                "Benötigen keine Design-Konsistenz",
+                "Ersetzen den Launch"
+              ],
+              correctAnswer: 1,
+              explanation: "High-Fidelity-Prototypen sind visualisierungsstark und liefern realitätsnäheres Feedback."
+            },
+            {
+              question: "Worauf wird in der Test-Phase besonders geachtet?",
+              options: [
+                "Code Coverage",
+                "Nutzerverhalten, Verständlichkeit und Zielerreichung",
+                "Serverkosten",
+                "Brand Guidelines"
+              ],
+              correctAnswer: 1,
+              explanation: "Tests fokussieren auf Nutzerverhalten, Verständnis und ob die Lösung hilft, Ziele zu erreichen."
             }
           ]}
         />
