@@ -49,21 +49,48 @@ export default function Sidebar({
                 <AccordionContent>
                   <div className="space-y-1">
                     {module.subModules.map((subModule) => (
-                      <button
-                        key={subModule.id}
-                        onClick={() => onSelectModule(subModule.id)}
-                        className={`
-                          w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm transition-all
-                          ${
-                            selectedModuleId === subModule.id
-                              ? "bg-gradient-secondary text-white"
-                              : "hover:bg-gray-50 text-gray-700"
-                          }
-                        `}
-                      >
-                        <FileText className="h-4 w-4" />
-                        <span>{subModule.title}</span>
-                      </button>
+                      <div key={subModule.id} className="space-y-1">
+                        <button
+                          onClick={() => onSelectModule(subModule.id)}
+                          className={`
+                            w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm transition-all
+                            ${
+                              selectedModuleId === subModule.id
+                                ? "bg-gradient-secondary text-white"
+                                : "hover:bg-gray-50 text-gray-700"
+                            }
+                          `}
+                        >
+                          <FileText className="h-4 w-4" />
+                          <span>{subModule.title}</span>
+                        </button>
+
+                        {selectedModuleId === subModule.id && subModule.content === "design-thinking" && (
+                          <nav className="ml-7 mt-1 mb-2 border-l border-gray-200 pl-3 space-y-1">
+                            <a href="#einfuhrung" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Einführung
+                            </a>
+                            <a href="#prinzipien" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Prinzipien
+                            </a>
+                            <a href="#double-diamond" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Double Diamond
+                            </a>
+                            <a href="#prozess" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Design Thinking-Prozess
+                            </a>
+                            <a href="#schritte" className="block text-xs text-gray-600 hover:text-primary-end">
+                              5 Schritte
+                            </a>
+                            <a href="#vs-agile" className="block text-xs text-gray-600 hover:text-primary-end">
+                              vs. Agile Methoden
+                            </a>
+                            <a href="#key-takeaways" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Key Takeaways
+                            </a>
+                          </nav>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </AccordionContent>

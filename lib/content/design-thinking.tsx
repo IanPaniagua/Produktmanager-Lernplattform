@@ -1,16 +1,22 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Quiz from "@/components/Quiz";
 import Link from "next/link";
 
 export const DesignThinkingContent = () => {
+  const [showBrainstorm, setShowBrainstorm] = useState(false);
+  const [showBrainstormSummary, setShowBrainstormSummary] = useState(false);
+  const [showScamper, setShowScamper] = useState(false);
+  const [showScamperSummary, setShowScamperSummary] = useState(false);
+  const [showMindmapSummary, setShowMindmapSummary] = useState(false);
+  const [showCrazySummary, setShowCrazySummary] = useState(false);
   return (
     <div className="space-y-12">
       {/* Introduction */}
       <section>
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Einführung in Design Thinking</h2>
+        <h2 id="einfuhrung" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Einführung in Design Thinking</h2>
         
         <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Was ist Design Thinking?</h3>
         <div className="text-gray-700 space-y-4 mb-6">
@@ -67,6 +73,8 @@ export const DesignThinkingContent = () => {
                 <p className="text-gray-600">Fördert spielerisches und unkonventionelles Denken, um die Entwicklung neuer Produkte zu unterstützen.</p>
               </div>
             </div>
+
+            
           </div>
         </div>
 
@@ -167,7 +175,7 @@ export const DesignThinkingContent = () => {
 
       {/* Principles */}
       <section className="pt-2">
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Design Thinking Prinzipien</h2>
+        <h2 id="prinzipien" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Design Thinking Prinzipien</h2>
         <div className="grid md:grid-cols-3 gap-4">
           <div className="bg-white border border-gray-200 rounded-xl p-6">
             <div className="text-3xl mb-3">🧑</div>
@@ -189,7 +197,7 @@ export const DesignThinkingContent = () => {
 
       {/* Double Diamond */}
       <section className="pt-2">
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Double Diamond der Produktentwicklung</h2>
+        <h2 id="double-diamond" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Double Diamond der Produktentwicklung</h2>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <div className="aspect-video w-full overflow-hidden rounded-lg shadow">
             <iframe
@@ -274,7 +282,7 @@ export const DesignThinkingContent = () => {
 
       {/* Der Design Thinking-Prozess */}
       <section className="pt-2">
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Der Design Thinking-Prozess</h2>
+        <h2 id="prozess" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Der Design Thinking-Prozess</h2>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <p className="text-gray-700 mb-4">Der Design Thinking Prozess ist Kern der Design Thinking Methode. Dabei sind der Start und vor allem das Ende des Design Thinking Prozesses charakteristisch.</p>
           <ul className="space-y-2 text-gray-700">
@@ -333,7 +341,7 @@ export const DesignThinkingContent = () => {
 
       {/* Process Steps */}
       <section className="pt-2">
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Die 5 Schritte des Design Thinking</h2>
+        <h2 id="schritte" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Die 5 Schritte des Design Thinking</h2>
         
         {/* Step 1: Empathize */}
         <div className="mb-6 bg-white border-l-4 border-primary-start rounded-r-xl p-6">
@@ -402,17 +410,85 @@ export const DesignThinkingContent = () => {
             <div>
               <h4 className="font-semibold text-gray-900 mb-2">Methoden:</h4>
               <div className="grid md:grid-cols-2 gap-3">
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <p className="font-medium text-gray-900">Brainstorming / Brainwriting</p>
+                <button
+                  type="button"
+                  onClick={() => setShowBrainstorm(true)}
+                  className="group relative bg-gray-50 rounded-lg p-3 pr-36 text-left transition-all cursor-pointer hover:bg-gradient-secondary hover:text-white"
+                  aria-label="Brainstorming Video öffnen"
+                >
+                  <p className="font-medium text-gray-900 group-hover:text-white">Brainstorming / Brainwriting
+                    <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Video ansehen)</span>
+                  </p>
+                  <span className="hidden group-hover:flex items-center">
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); setShowBrainstormSummary(true); }}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90"
+                    >
+                      Lesen
+                    </button>
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowCrazySummary(true)}
+                  className="group relative bg-gray-50 rounded-lg p-3 text-left transition-all cursor-pointer hover:bg-gradient-primary hover:text-white"
+                  aria-label="Crazy 8s Zusammenfassung öffnen"
+                >
+                  <p className="font-medium text-gray-900 group-hover:text-white">Crazy 8s
+                    <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Lesen)</span>
+                  </p>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowMindmapSummary(true)}
+                  className="group relative bg-gray-50 rounded-lg p-3 text-left transition-all cursor-pointer hover:bg-gradient-primary hover:text-white"
+                  aria-label="Mindmapping Zusammenfassung öffnen"
+                >
+                  <p className="font-medium text-gray-900 group-hover:text-white">Mindmapping
+                    <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Lesen)</span>
+                  </p>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowScamper(true)}
+                  className="group relative bg-gray-50 rounded-lg p-3 pr-36 text-left transition-all cursor-pointer hover:bg-gradient-secondary hover:text-white"
+                  aria-label="SCAMPER Video öffnen"
+                >
+                  <p className="font-medium text-gray-900 group-hover:text-white">SCAMPER
+                    <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Video ansehen)</span>
+                  </p>
+                  <span className="hidden group-hover:flex items-center">
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); setShowScamperSummary(true); }}
+                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90"
+                    >
+                      Lesen
+                    </button>
+                  </span>
+                </button>
+              </div>
+            </div>
+            {/* Kriterien zur Auswahl einer Idee */}
+            <div className="mt-4">
+              <h4 className="font-semibold text-gray-900 mb-2">Kriterien zur Auswahl einer Idee</h4>
+              <div className="grid md:grid-cols-2 gap-3">
+                <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                  <h5 className="font-semibold text-gray-900 mb-1">Wert (Value)</h5>
+                  <p className="text-sm text-gray-700">Sehen unsere Zielkunden in unserem Produkt einen Mehrwert?</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <p className="font-medium text-gray-900">Crazy 8s</p>
+                <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                  <h5 className="font-semibold text-gray-900 mb-1">Benutzerfreundlichkeit (Usability)</h5>
+                  <p className="text-sm text-gray-700">Ist unser Produkt einfach zu bedienen / nutzbar?</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <p className="font-medium text-gray-900">Mindmapping</p>
+                <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                  <h5 className="font-semibold text-gray-900 mb-1">Umsetzbarkeit (Feasibility)</h5>
+                  <p className="text-sm text-gray-700">Sind wir in der Lage, das Produkt ökonomisch sinnvoll herzustellen (Zeit, Fähigkeiten, Technologie, Kapital, etc.)?</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <p className="font-medium text-gray-900">SCAMPER</p>
+                <div className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                  <h5 className="font-semibold text-gray-900 mb-1">Geschäftsfähigkeit (Viability)</h5>
+                  <p className="text-sm text-gray-700">Ist es für uns als Firma sinnvoll, dieses Produkt herzustellen (Strategie, Rendite, etc.)?</p>
                 </div>
               </div>
             </div>
@@ -449,6 +525,27 @@ export const DesignThinkingContent = () => {
                 </ul>
               </div>
             </div>
+            <div className="mt-4">
+              <Image
+                src="/assets/low-high-prototype.png"
+                alt="Vergleich Low-Fidelity vs High-Fidelity Prototypen"
+                className="w-full h-auto rounded-lg shadow"
+                width={1600}
+                height={900}
+                priority={false}
+              />
+            </div>
+            <div className="mt-4 bg-gray-50 border border-gray-200 rounded-lg p-4">
+  <h5 className="font-semibold text-gray-900 mb-2">Best Practices für Prototypen-Erstellung (kurz)</h5>
+  <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+    <li>Versetze dich in die Lage eines Benutzers, der deine Lösung nicht kennt.</li>
+    <li>Sei konsistent mit Designelementen (Farben, Typografie, Layout).</li>
+    <li>Kommuniziere beabsichtigte Funktionalität (Was) und UX (Wie) klar über den Prototypen.</li>
+    <li>Nutze visuelle Hinweise, Anmerkungen und interaktive Elemente, um Nutzer zu führen.</li>
+    <li>Erstelle mehrere Versionen, teste und verfeinere sie.</li>
+    <li>Sei offen für Änderungen basierend auf neuen Erkenntnissen.</li>
+  </ul>
+</div>
           </div>
         </div>
 
@@ -470,6 +567,17 @@ export const DesignThinkingContent = () => {
                 <div className="bg-gray-50 rounded-lg p-3">
                   <p className="font-medium text-gray-900">Usability-Tests</p>
                   <p className="text-sm text-gray-600">Evaluierung der Benutzerfreundlichkeit durch echte Benutzerinteraktionen</p>
+                  <div className="mt-3 aspect-video w-full overflow-hidden rounded-lg shadow">
+                    <iframe
+                      className="w-full h-full"
+                      src="https://www.youtube.com/embed/BrVnBdW6_rE?si=ofCQMwq2_5MWEMjb"
+                      title="YouTube video player"
+                      frameBorder={0}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-3">
                   <p className="font-medium text-gray-900">Umfragen</p>
@@ -484,10 +592,319 @@ export const DesignThinkingContent = () => {
           </div>
         </div>
       </section>
+      {/* Brainstorming Video Modal */}
+      {showBrainstorm && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowBrainstorm(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-4xl overflow-hidden"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Brainstorming Video"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="absolute right-3 top-3 z-10 flex items-center gap-2">
+              <button
+                onClick={() => { setShowBrainstorm(false); setShowBrainstormSummary(true); }}
+                className="bg-gradient-secondary text-white px-3 py-1 rounded-md text-sm hover:opacity-90"
+              >
+                Zusammenfassung
+              </button>
+              <button
+                onClick={() => setShowBrainstorm(false)}
+                className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                aria-label="Schließen"
+              >
+                Schließen
+              </button>
+            </div>
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/H6R6nR_N0Yo?si=Ue6j5wnkf9bDvD1k&autoplay=1&mute=1"
+                title="YouTube video player"
+                frameBorder={0}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Crazy 8s Summary Modal */}
+      {showCrazySummary && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowCrazySummary(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-3xl h-[85vh] overflow-hidden flex flex-col"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Crazy 8s Zusammenfassung"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-3 border-b">
+              <h3 className="text-lg font-semibold text-gray-900">Crazy 8s – Zusammenfassung</h3>
+              <button
+                onClick={() => setShowCrazySummary(false)}
+                className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                aria-label="Schließen"
+              >
+                Schließen
+              </button>
+            </div>
+            <div className="p-5 overflow-y-auto space-y-3 text-gray-800 flex-1">
+              <p className="font-semibold">Definition von Crazy 8s</p>
+              <p>Crazy 8s ist eine schnelle Ideation-Technik, bei der acht unterschiedliche Ideen in acht Minuten entwickelt werden. Sie fördert Kreativität und verhindert, dass das Denken blockiert wird.</p>
+              <p className="font-semibold">📌 Erklärung</p>
+              <p>Crazy 8s wird vor allem in der Ideate-Phase von Design Thinking eingesetzt, um viele mögliche Lösungen schnell und visuell zu erkunden:</p>
+              <ul className="list-disc pl-5 space-y-1">
+                <li><strong>Begrenzte Zeit:</strong> Jede:r Teilnehmer:in hat 8 Minuten, um 8 verschiedene Ideen auf Papier oder Canvas zu skizzieren.</li>
+                <li><strong>Schnelle, einfache Ideen:</strong> Es geht nicht um Perfektion, sondern um Quantität und Vielfalt der Lösungen.</li>
+                <li><strong>Förderung der Kreativität:</strong> Durch die kurze Zeit werden mentale Blockaden überwunden und unerwartete Ideen entstehen.</li>
+                <li><strong>Visuell und kollaborativ:</strong> Die Skizzen können im Team geteilt werden, um Ideen zu vergleichen, zu kombinieren und zu priorisieren.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Mindmapping Summary Modal */}
+      {showMindmapSummary && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowMindmapSummary(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-3xl h-[85vh] overflow-hidden flex flex-col"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Mindmapping Zusammenfassung"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-3 border-b">
+              <h3 className="text-lg font-semibold text-gray-900">Mindmapping – Zusammenfassung</h3>
+              <button
+                onClick={() => setShowMindmapSummary(false)}
+                className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                aria-label="Schließen"
+              >
+                Schließen
+              </button>
+            </div>
+            <div className="p-5 overflow-y-auto space-y-3 text-gray-800 flex-1">
+              <p>Im Bereich Product Management und Design Thinking wird Mind Mapping insbesondere in der Phase Ideate eingesetzt, deren Ziel es ist, Ideen kreativ und kollaborativ zu erzeugen, zu erforschen und zu verknüpfen:</p>
+              <p><strong>Zentrales Problem:</strong> Ausgangspunkt ist eine zentrale Herausforderung oder Fragestellung (Beispiel: „Wie können wir die Nutzerbindung in der App verbessern?“).</p>
+              <p><strong>Hauptrichtungen:</strong> Es werden Schlüsselkategorien gebildet, die mit der Herausforderung verbunden sind (UX, Marketing, Motivation, Technologie usw.).</p>
+              <p><strong>Unterzweige mit konkreten Ideen:</strong> Jede Kategorie wird in mögliche Lösungen unterteilt, sodass auf einen Blick eine große Zahl von Alternativen sichtbar wird.</p>
+              <div>
+                <h4 className="font-semibold text-gray-900">Wert des Mind Mapping:</h4>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>Erleichtert divergentes Denken.</li>
+                  <li>Fördert die Zusammenarbeit zwischen Teams.</li>
+                  <li>Bietet einen ganzheitlichen Überblick über Ideen.</li>
+                  <li>Hilft bei der Priorisierung von Lösungen, die anschließend zu Prototypen oder Produktfunktionen weiterentwickelt werden können.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Brainstorming Summary Modal */}
+      {showBrainstormSummary && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowBrainstormSummary(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-3xl h-[85vh] overflow-hidden flex flex-col"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Brainstorming Zusammenfassung"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-3 border-b">
+              <h3 className="text-lg font-semibold text-gray-900">Brainstorming – Zusammenfassung</h3>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => { setShowBrainstormSummary(false); setShowBrainstorm(true); }}
+                  className="bg-gradient-secondary text-white px-3 py-1 rounded-md text-sm hover:opacity-90"
+                >
+                  Video ansehen
+                </button>
+                <button
+                  onClick={() => setShowBrainstormSummary(false)}
+                  className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                  aria-label="Schließen"
+                >
+                  Schließen
+                </button>
+              </div>
+            </div>
+            <div className="p-5 overflow-y-auto space-y-3 text-gray-800 flex-1">
+              <p className="font-semibold">Brainstorming: Die Turbo-Ideenschmiede</p>
+              <p>Brainstorming ist eine tolle Methode, um in der Gruppe neue Ideen und kreative Lösungen für ein Problem zu finden. Aber damit es klappt, muss man ein paar Regeln beachten:</p>
+              <ol className="list-decimal pl-5 space-y-1">
+                <li><strong>Gute Vorbereitung:</strong> Das Thema muss klar definiert sein – nicht zu eng, damit man nicht eingeschränkt wird, aber auch nicht zu weit, damit am Ende hilfreiche Ergebnisse herauskommen.</li>
+                <li><strong>Das richtige Team:</strong> Optimal sind fünf bis sieben Personen. Mischen Sie das Team gut durch: Nehmen Sie Leute, die das Thema kennen, aber auch „Außenseiter“ mit frischen, unerwarteten Ideen.</li>
+                <li><strong>Die goldene Regel:</strong> Die wichtigste Ansage zu Beginn ist: Ziel ist die maximale Ideenanzahl! Denken Sie frei, denken Sie verrückt und urteilen Sie nicht.</li>
+                <li><strong>Keine Kritik:</strong> Während der Ideenfindung ist es strengstens untersagt, die Ideen anderer abzuwerten, zu kritisieren oder sich lustig zu machen.</li>
+                <li><strong>Erst still, dann laut:</strong> Geben Sie jedem zuerst Zeit, die Ideen für sich allein aufzuschreiben. Erst danach werden die Ansätze laut geteilt, um Wiederholungen zu vermeiden.</li>
+              </ol>
+              <p><strong>Das Fazit:</strong> Wenn alles richtig läuft, haben Sie am Ende einen Berg an Ideen, der dann erst im Nachhinein kategorisiert und bewertet wird.</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* SCAMPER Summary Modal */}
+      {showScamperSummary && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowScamperSummary(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-3xl h-[85vh] overflow-hidden flex flex-col"
+            role="dialog"
+            aria-modal="true"
+            aria-label="SCAMPER Zusammenfassung"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-5 py-3 border-b">
+              <h3 className="text-lg font-semibold text-gray-900">SCAMPER – Zusammenfassung</h3>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => { setShowScamperSummary(false); setShowScamper(true); }}
+                  className="bg-gradient-secondary text-white px-3 py-1 rounded-md text-sm hover:opacity-90"
+                >
+                  Video ansehen
+                </button>
+                <button
+                  onClick={() => setShowScamperSummary(false)}
+                  className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                  aria-label="Schließen"
+                >
+                  Schließen
+                </button>
+              </div>
+            </div>
+            <div className="p-5 overflow-y-auto space-y-4 text-gray-800 flex-1">
+              <p>
+                Das SCAMPER-Modell ist eine Kreativitätstechnik und eine wahre Ideen-Kanone, die dazu dient, festgefahrene Denkmuster aufzubrechen und Althergebrachtes infrage zu stellen. Es hilft Ihnen, Ihr "Denkgefängnis" zu verlassen und "out-of-the-box" zu denken, um innovative Produktideen, Prozesse oder Strategien zu entwickeln.
+              </p>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-1">Warum SCAMPER wichtig ist</h4>
+                <p>
+                  Wer heute nur das Vorhandene effizienter gestaltet (z.B. bessere Akkus oder schnelleren Kundenservice), sorgt zwar für den Cash Flow der Gegenwart, "verpennt" aber die Zukunft. Die Welt steht nicht still, und um nicht "weg vom Fenster" zu sein, muss man radikal anders denken. Große Veränderungen kamen historisch nicht durch "schneller, höher, weiter", sondern durch die Umkehrung des gesamten Konzepts – wie der Wechsel vom Großrechner zum PC oder vom Nokia-Telefon zum Smartphone.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-2">Die 7 Schritte zur Ideenfindung (SCAMPER)</h4>
+                <ol className="list-decimal pl-5 space-y-1">
+                  <li>
+                    <strong>S – Substitute (Ersetzen):</strong> Was könnte man durch andere Konzepte, Materialien oder Ansätze ersetzen (z.B. Benzinmotor durch Elektromotor)?
+                  </li>
+                  <li>
+                    <strong>C – Combine (Kombinieren):</strong> Was passiert, wenn man das Produkt mit anderen Dingen oder Funktionen koppelt (z.B. eine Waage mit einer Smartphone-App)?
+                  </li>
+                  <li>
+                    <strong>A – Adapt (Anpassen):</strong> Welche Funktionen kann man verändern oder anpassen, um das Produkt für erweiterte Einsatzzwecke nutzbar zu machen (z.B. eine Pulsuhr wasserdicht für Schwimmer machen)?
+                  </li>
+                  <li>
+                    <strong>M – Modify / Magnify (Modifizieren / Vergrößern):</strong> Wie kann man Aussehen, Haptik oder Funktionen ändern, um einen Mehrwert zu schaffen oder neue Nutzergruppen zu erreichen?
+                  </li>
+                  <li>
+                    <strong>P – Purpose / Put to other use (Zweck ändern):</strong> Kann man das Produkt für gänzlich andere Zwecke einsetzen (z.B. eine Teleskop-Antenne als Zeigestock)?
+                  </li>
+                  <li>
+                    <strong>E – Eliminate (Weglassen):</strong> Was ist überflüssig oder obsolet? Wie kann das Produkt klarer, leichter oder einfacher gestaltet werden (z.B. das DVD-Laufwerk beim Laptop weglassen)?
+                  </li>
+                  <li>
+                    <strong>R – Reverse / Rearrange (Umkehren / Umsortieren):</strong> Was passiert, wenn man Prozesse in einer anderen Reihenfolge anordnet oder ganz umdreht (z.B. der Kunde bezahlt vor dem Essen)?
+                  </li>
+                </ol>
+              </div>
+              <div>
+                <h4 className="font-semibold text-gray-900 mb-1">Wichtiger Hinweis</h4>
+                <p>
+                  SCAMPER generiert lediglich Ideen – viele schlechte und hoffentlich ein paar gute. Das Bewerten und das Entscheiden, was Sie tatsächlich umsetzen wollen, findet erst NACH dem SCAMPER-Prozess statt. Es geht darum, mutig zu sein und neue Möglichkeiten zu entdecken.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* SCAMPER Video Modal */}
+      {showScamper && (
+        <div className="fixed inset-0 z-[999] flex items-center justify-center">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-gray-900/70"
+            onClick={() => setShowScamper(false)}
+          />
+          {/* Modal content */}
+          <div
+            className="relative bg-white rounded-xl shadow-2xl w-[92%] max-w-4xl overflow-hidden"
+            role="dialog"
+            aria-modal="true"
+            aria-label="SCAMPER Video"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="absolute right-3 top-3 z-10 flex items-center gap-2">
+              <button
+                onClick={() => { setShowScamper(false); setShowScamperSummary(true); }}
+                className="bg-gradient-secondary text-white px-3 py-1 rounded-md text-sm hover:opacity-90"
+              >
+                Zusammenfassung
+              </button>
+              <button
+                onClick={() => setShowScamper(false)}
+                className="bg-gray-800/80 text-white px-3 py-1 rounded-md text-sm hover:bg-gray-800"
+                aria-label="Schließen"
+              >
+                Schließen
+              </button>
+            </div>
+            <div className="aspect-video w-full">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/XekS-d5utzE?si=joRrU0QNjwT5pkMD&autoplay=1&mute=1"
+                title="YouTube video player"
+                frameBorder={0}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Design Thinking vs Agile */}
       <section>
-        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Design Thinking vs. agile Methoden</h2>
+        <h2 id="vs-agile" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Design Thinking vs. agile Methoden</h2>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div>
@@ -516,7 +933,7 @@ export const DesignThinkingContent = () => {
 
       {/* Key Takeaways */}
       <section className="bg-gradient-to-r from-correct-start/10 to-correct-end/10 rounded-xl p-6">
-        <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-4">🔑 Key Takeaways</h3>
+        <h3 id="key-takeaways" className="scroll-mt-24 text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-4">🔑 Key Takeaways</h3>
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-start gap-2">
             <span className="text-correct-end mt-1">✓</span>
@@ -556,11 +973,6 @@ export const DesignThinkingContent = () => {
               <li>• Detaillierte Ergebnisübersicht am Ende</li>
               <li>• Mindestens 66% für das Bestehen erforderlich</li>
             </ul>
-          </div>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
-            <p className="text-sm font-medium text-yellow-900">
-              ⚠️ Der Test öffnet sich auf einer neuen Seite. Wenn du die Seite verlässt, wird der Test abgebrochen.
-            </p>
           </div>
           <Link
             href="/exam/design-thinking"

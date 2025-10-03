@@ -1,0 +1,17 @@
+Im Bereich Product Management und Design Thinking wird Mind Mapping insbesondere in der Phase Ideate eingesetzt, deren Ziel es ist, Ideen kreativ und kollaborativ zu erzeugen, zu erforschen und zu verknüpfen:
+
+Zentrales Problem: Ausgangspunkt ist eine zentrale Herausforderung oder Fragestellung (Beispiel: „Wie können wir die Nutzerbindung in der App verbessern?“).
+
+Hauptrichtungen: Es werden Schlüsselkategorien gebildet, die mit der Herausforderung verbunden sind (UX, Marketing, Motivation, Technologie usw.).
+
+Unterzweige mit konkreten Ideen: Jede Kategorie wird in mögliche Lösungen unterteilt, sodass auf einen Blick eine große Zahl von Alternativen sichtbar wird.
+
+Wert des Mind Mapping:
+
+Erleichtert divergentes Denken.
+
+Fördert die Zusammenarbeit zwischen Teams.
+
+Bietet einen ganzheitlichen Überblick über Ideen.
+
+Hilft bei der Priorisierung von Lösungen, die anschließend zu Prototypen oder Produktfunktionen weiterentwickelt werden können.
