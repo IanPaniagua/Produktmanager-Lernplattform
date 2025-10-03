@@ -503,13 +503,12 @@ export const DesignThinkingContent = () => {
                     <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Video ansehen)</span>
                   </p>
                   <span className="hidden group-hover:flex items-center">
-                    <button
-                      type="button"
+                    <span
                       onClick={(e) => { e.stopPropagation(); setShowBrainstormSummary(true); }}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90 cursor-pointer"
                     >
                       Lesen
-                    </button>
+                    </span>
                   </span>
                 </button>
                 <button
@@ -542,13 +541,12 @@ export const DesignThinkingContent = () => {
                     <span className="ml-2 hidden group-hover:inline text-xs opacity-90">(Video ansehen)</span>
                   </p>
                   <span className="hidden group-hover:flex items-center">
-                    <button
-                      type="button"
+                    <span
                       onClick={(e) => { e.stopPropagation(); setShowScamperSummary(true); }}
-                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90"
+                      className="absolute right-3 top-1/2 -translate-y-1/2 bg-gradient-primary text-white text-xs font-medium px-3 py-1 rounded-md shadow hover:opacity-90 cursor-pointer"
                     >
                       Lesen
-                    </button>
+                    </span>
                   </span>
                 </button>
               </div>
