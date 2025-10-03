@@ -1,0 +1,7 @@
+Du willst wissen wer oder was der Double Diamond ist? Kein Problem, hier kommt eine schnelle Definition. Der sogenannte Double Diamond ist eins der zwei populärsten Prozessmodelle aus dem Innovationsansatz Design Thinking. Dabei handelt es sich um eine Perspektive oder Vorgehensweise bei der Problemlösung und Entwicklung neuer Ideen.
+Man unterscheidet beim Double Diamond Prozess in zwei Phasen:
+• die Problemphase (1. Diamant)
+• und die Lösungsphase (2. Diamant).
+Jede Phase hat einen Teil, wo das Feld aufgemacht wird – Diverge – und einen Teil, wo Ideen verdichtet und priorisiert werden – Converge. So ergibt sich die typische Diamantenform.
+Das andere Prozessmodell, die 5 Schritte – Empathize, Define, Ideate, Prototype und Test – erscheint auf den ersten Blick etwas linearer, bildet aber im Grunde das gleiche Vorgehen ab. Beim Double Diamond ist einfach der erste Teil ein bisschen größer. Forschung und Insights werden getrennt abgebildet (im Vergleich zu Empathize) und im zweiten Teil wird der Test unter dem Prototyping subsumiert. Das ist alles.
+In der Lehrmeinung zum Double Diamond wird außerdem jede Phase – jeder Diamant – mehrfach wiederholt bis ein „endgültiges“ Ergebnis erzielt ist. In der freien Wirtschaft wird tatsächlich eher eine Iteration pro Phase angesetzt. Ich habe dazu einen ganzen Artikel geschrieben, den ich dir gerne unter diesem Beitrag verlinke. Weitere Lesetipps und Empfehlungen findest du unter diesem Video. Viel Spaß damit und bis bald!

@@ -128,7 +128,81 @@ export const DesignThinkingContent = () => {
       <section className="pt-2">
         <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Double Diamond der Produktentwicklung</h2>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
-          <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Der Design Thinking-Prozess</h3>
+          <div className="aspect-video w-full overflow-hidden rounded-lg shadow">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/iwF-VeBDNJE?si=9Qyke-QzY-hU8C4j"
+              title="YouTube video player"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Quiz: Double Diamond */}
+      <Quiz
+        title="Quiz: Double Diamond"
+        questions={[
+          {
+            question: "Was beschreibt der Double Diamond im Kontext von Design Thinking?",
+            options: [
+              "Ein beliebtes Prozessmodell zur Problemlösung und Ideenentwicklung",
+              "Ein KPI zur Messung von Produktumsatz",
+              "Ein Tool für High-Fidelity-Prototypen"
+            ],
+            correctAnswer: 0,
+            explanation: "Der Double Diamond ist eines der populärsten Prozessmodelle aus dem Design Thinking und beschreibt eine Herangehensweise an Problemlösung und Ideengenerierung."
+          },
+          {
+            question: "In wie viele Phasen teilt sich der Double Diamond auf?",
+            options: [
+              "In drei Phasen: Research, Build, Scale",
+              "In zwei Phasen: Problemphase und Lösungsphase",
+              "In fünf lineare Schritte"
+            ],
+            correctAnswer: 1,
+            explanation: "Er besteht aus Problemphase (1. Diamant) und Lösungsphase (2. Diamant)."
+          },
+          {
+            question: "Welche zwei Bewegungen enthält JEDE Phase im Double Diamond?",
+            options: [
+              "Planen und Umsetzen",
+              "Divergieren und Konvergieren",
+              "Messen und Skalieren"
+            ],
+            correctAnswer: 1,
+            explanation: "Jede Phase hat eine Divergenz (Feld aufmachen) und eine Konvergenz (Ideen verdichten/priorisieren)."
+          },
+          {
+            question: "Wie verhält sich der Double Diamond zu den 5 Schritten (Empathize, Define, Ideate, Prototype, Test)?",
+            options: [
+              "Sie widersprechen sich grundlegend",
+              "Sie bilden im Grunde dasselbe Vorgehen ab; beim Double Diamond ist der erste Teil größer, Research/Insights sind getrennt und der Test ist unter Prototyping subsumiert",
+              "Die 5 Schritte sind ausschließlich für Marketing geeignet"
+            ],
+            correctAnswer: 1,
+            explanation: "Beide Modelle beschreiben das gleiche Vorgehen; der Double Diamond betont Research/Insights separat und fasst Testing unter Prototyping zusammen."
+          },
+          {
+            question: "Wie oft wird eine Phase des Double Diamond typischerweise in der Praxis iteriert?",
+            options: [
+              "Mehrfach, bis ein endgültiges Ergebnis entsteht (üblich in Lehrmeinung)",
+              "Gar nicht – es ist strikt linear",
+              "Meist eine Iteration pro Phase in der freien Wirtschaft"
+            ],
+            correctAnswer: 2,
+            explanation: "In der Praxis wird häufig eine Iteration pro Phase angesetzt, während die Lehrmeinung mehrere Wiederholungen vorsieht."
+          }
+        ]}
+      />
+
+      {/* Der Design Thinking-Prozess */}
+      <section className="pt-2">
+        <h2 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Der Design Thinking-Prozess</h2>
+        <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <p className="text-gray-700 mb-4">Der Design Thinking Prozess ist Kern der Design Thinking Methode. Dabei sind der Start und vor allem das Ende des Design Thinking Prozesses charakteristisch.</p>
           <ul className="space-y-2 text-gray-700">
             <li className="flex items-start gap-2">
