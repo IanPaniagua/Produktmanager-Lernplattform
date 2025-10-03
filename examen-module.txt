@@ -1,0 +1,10 @@
+estos son los temas de examen. vamos a crear un modulo para cada uno de ellos :
+
+Modul 1 - Grundlagen des Produktmanagements im IT-Bereich
+Modul 2 - Market & User Research
+Modul 4 - Agile Methoden & Anforderungsmanagement
+Modul 5 - Customer Experience Design
+Modul 7 - Validierung und Entscheidungsfindung
+Modul 8 - Roadmapping
+Modul 9 - Geschäftsausrichtung & Business Model
+
