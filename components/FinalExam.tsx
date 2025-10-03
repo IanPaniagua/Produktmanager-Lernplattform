@@ -116,7 +116,7 @@ export default function FinalExam({ title, questions }: FinalExamProps) {
           </div>
           <div className="flex gap-4 justify-center">
             <Link
-              href="/design-thinking"
+              href="/"
               className="bg-gradient-secondary text-white px-6 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition-opacity flex items-center gap-2"
             >
               <Home className="h-5 w-5" />
@@ -235,7 +235,7 @@ export default function FinalExam({ title, questions }: FinalExamProps) {
 
             <div className="text-center flex gap-4 justify-center">
               <Link
-                href="/design-thinking"
+                href="/"
                 className="bg-gradient-secondary text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center gap-2"
               >
                 <Home className="h-5 w-5" />

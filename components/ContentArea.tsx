@@ -89,11 +89,6 @@ export default function ContentArea({ selectedModuleId }: ContentAreaProps) {
       <div className="container mx-auto px-8 py-12">
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
           <div className="mb-6">
-            <div className="inline-block bg-gradient-primary rounded-lg px-4 py-1 mb-4">
-              <span className="text-sm font-medium text-white">
-                {content.type === "module" ? "Modul" : "Untermodul"}
-              </span>
-            </div>
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
               {content.title}
             </h1>

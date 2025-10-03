@@ -59,7 +59,7 @@ export default function Quiz({ title, questions }: QuizProps) {
       const rest = match[1];
       return (
         <>
-          <span className="bg-gradient-primary bg-clip-text text-transparent uppercase font-extrabold tracking-wide">QUIZ</span>
+          <span className="bg-gradient-secondary bg-clip-text text-transparent uppercase font-extrabold tracking-wide">QUIZ</span>
           {rest ? `: ${rest}` : ""}
         </>
       );
@@ -74,7 +74,7 @@ export default function Quiz({ title, questions }: QuizProps) {
     const isPassed = percentage >= 66;
 
     return (
-      <div className="bg-gradient-secondary rounded-xl p-[2px]">
+      <div className="bg-gradient-secondary rounded-xl p-1">
         <div className="bg-white rounded-xl p-6">
         <h3 className="text-xl font-semibold text-gray-900 mb-4">{renderTitle(title)}</h3>
         <div className="text-center py-8">
@@ -109,7 +109,7 @@ export default function Quiz({ title, questions }: QuizProps) {
   const isCorrect = selectedAnswer === question.correctAnswer;
 
   return (
-    <div className="bg-gradient-secondary rounded-xl p-[2px]">
+    <div className="bg-gradient-secondary rounded-xl p-1">
       <div className="bg-white rounded-xl p-6">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-xl font-semibold text-gray-900">{renderTitle(title)}</h3>

@@ -12,12 +12,26 @@ export const DesignThinkingContent = () => {
   const [showScamperSummary, setShowScamperSummary] = useState(false);
   const [showMindmapSummary, setShowMindmapSummary] = useState(false);
   const [showCrazySummary, setShowCrazySummary] = useState(false);
+  const [quizMode, setQuizMode] = useState(false);
+  
   return (
-    <div className="space-y-12">
+    <div className="relative space-y-12">
+      {/* Quiz Mode Toggle - Absolute Position */}
+      <button
+        onClick={() => setQuizMode(!quizMode)}
+        className={`absolute -top-2 -right-2 z-50 px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-lg ${
+          quizMode
+            ? "bg-gradient-primary text-white"
+            : "bg-gradient-secondary text-white hover:opacity-90"
+        }`}
+      >
+        {quizMode ? "Theorie anzeigen" : "Nur QUIZ anzeigen"}
+      </button>
       {/* Introduction */}
       <section>
         <h2 id="einfuhrung" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Einführung in Design Thinking</h2>
-        
+        {!quizMode && (
+        <>
         <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Was ist Design Thinking?</h3>
         <div className="text-gray-700 space-y-4 mb-6">
           <p>
@@ -104,6 +118,8 @@ export const DesignThinkingContent = () => {
             </div>
           </div>
         </div>
+        </>
+        )}
       </section>
 
       {/* Quiz: Introduction */}
@@ -176,6 +192,8 @@ export const DesignThinkingContent = () => {
       {/* Principles */}
       <section className="pt-2">
         <h2 id="prinzipien" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Design Thinking Prinzipien</h2>
+        {!quizMode && (
+        <>
         <div className="grid md:grid-cols-3 gap-4">
           <div className="bg-white border border-gray-200 rounded-xl p-6">
             <div className="text-3xl mb-3">🧑</div>
@@ -193,11 +211,55 @@ export const DesignThinkingContent = () => {
             <p className="text-gray-600 text-sm">Design Thinking stellt Handeln und Experimentieren über Analyse und Planung und ermöglicht es den Teams, Ideen schnell zu testen und zu überarbeiten.</p>
           </div>
         </div>
+        </>
+        )}
       </section>
+
+      {/* Quiz: Design Thinking Prinzipien */}
+      <Quiz
+        title="Quiz: Design Thinking Prinzipien"
+        questions={[
+          {
+            question: "Was bedeutet 'Menschenzentriert' im Kontext von Design Thinking?",
+            options: [
+              "Fokus auf die Bedürfnisse, Wünsche und Erfahrungen der Nutzer",
+              "Fokus auf die Hierarchie im Team",
+              "Fokus auf technische Perfektion",
+              "Fokus auf Gewinnmaximierung"
+            ],
+            correctAnswer: 0,
+            explanation: "Beim Design Thinking geht es um die Bedürfnisse, Wünsche und Erfahrungen der Nutzer - der Mensch steht im Zentrum."
+          },
+          {
+            question: "Warum ist Kooperation ein wichtiges Prinzip im Design Thinking?",
+            options: [
+              "Um Kosten zu sparen",
+              "Weil vielfältige Teams mit unterschiedlichen Fähigkeiten bessere Lösungen entwickeln",
+              "Um Entscheidungen schneller zu treffen",
+              "Um Verantwortung zu verteilen"
+            ],
+            correctAnswer: 1,
+            explanation: "Design Thinking erfordert die Zusammenarbeit mit einem vielfältigen Team mit unterschiedlichen Fähigkeiten und Hintergründen, was zu besseren Lösungen führt."
+          },
+          {
+            question: "Was bedeutet das Prinzip 'Aktion vor Analyse'?",
+            options: [
+              "Keine Planung ist notwendig",
+              "Handeln und Experimentieren hat Vorrang vor perfekter Planung",
+              "Analyse ist unwichtig",
+              "Schnelligkeit ist wichtiger als Qualität"
+            ],
+            correctAnswer: 1,
+            explanation: "Design Thinking stellt Handeln und Experimentieren über Analyse und Planung und ermöglicht es den Teams, Ideen schnell zu testen und zu überarbeiten."
+          }
+        ]}
+      />
 
       {/* Double Diamond */}
       <section className="pt-2">
         <h2 id="double-diamond" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Double Diamond der Produktentwicklung</h2>
+        {!quizMode && (
+        <>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <div className="aspect-video w-full overflow-hidden rounded-lg shadow">
             <iframe
@@ -221,6 +283,8 @@ export const DesignThinkingContent = () => {
             />
           </div>
         </div>
+        </>
+        )}
       </section>
 
       {/* Quiz: Double Diamond */}
@@ -283,6 +347,8 @@ export const DesignThinkingContent = () => {
       {/* Der Design Thinking-Prozess */}
       <section className="pt-2">
         <h2 id="prozess" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Der Design Thinking-Prozess</h2>
+        {!quizMode && (
+        <>
         <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-6">
           <p className="text-gray-700 mb-4">Der Design Thinking Prozess ist Kern der Design Thinking Methode. Dabei sind der Start und vor allem das Ende des Design Thinking Prozesses charakteristisch.</p>
           <ul className="space-y-2 text-gray-700">
@@ -300,6 +366,8 @@ export const DesignThinkingContent = () => {
             </li>
           </ul>
         </div>
+        </>
+        )}
       </section>
 
       {/* Quiz: Principles & Double Diamond */}
@@ -343,6 +411,8 @@ export const DesignThinkingContent = () => {
       <section className="pt-2">
         <h2 id="schritte" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Die 5 Schritte des Design Thinking</h2>
         
+        {!quizMode && (
+        <>
         {/* Step 1: Empathize */}
         <div className="mb-6 bg-white border-l-4 border-primary-start rounded-r-xl p-6">
           <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Schritt 1: Empathize</h3>
@@ -588,128 +658,129 @@ export const DesignThinkingContent = () => {
                   <p className="text-sm text-gray-600">Zwei Varianten eines Produkts vergleichen, um zu bestimmen, welche Version besser funktioniert</p>
                 </div>
               </div>
-              {/* Quiz: Die 5 Schritte des Design Thinking */}
-              <div className="mt-6">
-                <Quiz
-                  title="Quiz: Die 5 Schritte des Design Thinking"
-                  questions={[
-                    {
-                      question: "Was ist das Hauptziel der Empathize-Phase?",
-                      options: [
-                        "Eine finale Lösung definieren",
-                        "Die Bedürfnisse und Perspektiven der Nutzer verstehen",
-                        "Ein MVP bauen",
-                        "Ein Business-Case erstellen"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "In Empathize geht es darum, die Nutzer zu verstehen und ihre Bedürfnisse durch Interviews, Beobachtungen, etc. zu erfassen."
-                    },
-                    {
-                      question: "Welches Artefakt passt typischerweise in die Define-Phase?",
-                      options: [
-                        "Affinity Map und HMW-Statements",
-                        "Click-Dummy",
-                        "Go-To-Market-Plan",
-                        "A/B-Testergebnis"
-                      ],
-                      correctAnswer: 0,
-                      explanation: "In Define werden Erkenntnisse strukturiert (z.B. Affinity Maps) und Probleme als HMW-Statements formuliert."
-                    },
-                    {
-                      question: "Welche Regel ist für die Ideate-Phase besonders wichtig?",
-                      options: [
-                        "Ideen sofort bewerten",
-                        "Nur eine Idee erzeugen",
-                        "Quantität vor Qualität, keine Bewertung während der Generierung",
-                        "Nur Experten brainstormen lassen"
-                      ],
-                      correctAnswer: 2,
-                      explanation: "Während Ideate werden möglichst viele Ideen generiert, ohne diese gleichzeitig zu bewerten."
-                    },
-                    {
-                      question: "Was ist typisch für einen Low-Fidelity-Prototyp?",
-                      options: [
-                        "Pixelperfekte Visuals",
-                        "Einfache, schnelle Skizzen zur schnellen Iteration",
-                        "Komplette Backend-Integration",
-                        "Produktionsreifer Code"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "Low-Fidelity-Prototypen sind schnell erstellt, günstig und ideal für frühes Feedback."
-                    },
-                    {
-                      question: "Welcher Zweck hat die Test-Phase?",
-                      options: [
-                        "Marketing-Budget erhöhen",
-                        "Annahmen zur Lösung validieren und Nutzbarkeit prüfen",
-                        "Design-System dokumentieren",
-                        "Roadmap finalisieren"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "In Test werden Annahmen validiert und die Benutzerfreundlichkeit mit echten Nutzern geprüft."
-                    },
-                    {
-                      question: "Welche Methode gehört NICHT primär zur Empathize-Phase?",
-                      options: [
-                        "User Interviews",
-                        "Feldbeobachtungen",
-                        "Usability-Tests eines fertigen Produkts",
-                        "Journey Mapping zur Verständnisbildung"
-                      ],
-                      correctAnswer: 2,
-                      explanation: "Usability-Tests werden typischerweise später mit Prototypen oder Produkten durchgeführt."
-                    },
-                    {
-                      question: "Was ist ein gutes Ergebnis der Define-Phase?",
-                      options: [
-                        "Ein priorisiertes Backlog",
-                        "Ein klar formuliertes Problem-Statement (z.B. HMW)",
-                        "Ein MVP-Launch",
-                        "Ein detailliertes UI-Design"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "Define führt zu Klarheit über das Problem, u.a. in Form von HMW-Statements."
-                    },
-                    {
-                      question: "Welche Ideation-Technik zielt darauf, schnell viele Varianten zu skizzieren?",
-                      options: [
-                        "Usability-Testing",
-                        "Crazy 8s",
-                        "Unit Testing",
-                        "Roadmapping"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "Crazy 8s erzeugt 8 verschiedene Ideen in 8 Minuten und fördert Divergenz."
-                    },
-                    {
-                      question: "Welcher Vorteil ist typisch für High-Fidelity-Prototypen?",
-                      options: [
-                        "Sehr schnell zu erstellen",
-                        "Ermöglichen realitätsnäheres Feedback",
-                        "Benötigen keine Design-Konsistenz",
-                        "Ersetzen den Launch"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "High-Fidelity-Prototypen sind visualisierungsstark und liefern realitätsnäheres Feedback."
-                    },
-                    {
-                      question: "Worauf wird in der Test-Phase besonders geachtet?",
-                      options: [
-                        "Code Coverage",
-                        "Nutzerverhalten, Verständlichkeit und Zielerreichung",
-                        "Serverkosten",
-                        "Brand Guidelines"
-                      ],
-                      correctAnswer: 1,
-                      explanation: "Tests fokussieren auf Nutzerverhalten, Verständnis und ob die Lösung hilft, Ziele zu erreichen."
-                    }
-                  ]}
-                />
-              </div>
             </div>
           </div>
         </div>
+        </>
+        )}
       </section>
+
+      {/* Quiz: Die 5 Schritte des Design Thinking */}
+      <Quiz
+        title="Quiz: Die 5 Schritte des Design Thinking"
+          questions={[
+            {
+              question: "Was ist das Hauptziel der Empathize-Phase?",
+              options: [
+                "Eine finale Lösung definieren",
+                "Die Bedürfnisse und Perspektiven der Nutzer verstehen",
+                "Ein MVP bauen",
+                "Ein Business-Case erstellen"
+              ],
+              correctAnswer: 1,
+              explanation: "In Empathize geht es darum, die Nutzer zu verstehen und ihre Bedürfnisse durch Interviews, Beobachtungen, etc. zu erfassen."
+            },
+            {
+              question: "Welches Artefakt passt typischerweise in die Define-Phase?",
+              options: [
+                "Affinity Map und HMW-Statements",
+                "Click-Dummy",
+                "Go-To-Market-Plan",
+                "A/B-Testergebnis"
+              ],
+              correctAnswer: 0,
+              explanation: "In Define werden Erkenntnisse strukturiert (z.B. Affinity Maps) und Probleme als HMW-Statements formuliert."
+            },
+            {
+              question: "Welche Regel ist für die Ideate-Phase besonders wichtig?",
+              options: [
+                "Ideen sofort bewerten",
+                "Nur eine Idee erzeugen",
+                "Quantität vor Qualität, keine Bewertung während der Generierung",
+                "Nur Experten brainstormen lassen"
+              ],
+              correctAnswer: 2,
+              explanation: "Während Ideate werden möglichst viele Ideen generiert, ohne diese gleichzeitig zu bewerten."
+            },
+            {
+              question: "Was ist typisch für einen Low-Fidelity-Prototyp?",
+              options: [
+                "Pixelperfekte Visuals",
+                "Einfache, schnelle Skizzen zur schnellen Iteration",
+                "Komplette Backend-Integration",
+                "Produktionsreifer Code"
+              ],
+              correctAnswer: 1,
+              explanation: "Low-Fidelity-Prototypen sind schnell erstellt, günstig und ideal für frühes Feedback."
+            },
+            {
+              question: "Welcher Zweck hat die Test-Phase?",
+              options: [
+                "Marketing-Budget erhöhen",
+                "Annahmen zur Lösung validieren und Nutzbarkeit prüfen",
+                "Design-System dokumentieren",
+                "Roadmap finalisieren"
+              ],
+              correctAnswer: 1,
+              explanation: "In Test werden Annahmen validiert und die Benutzerfreundlichkeit mit echten Nutzern geprüft."
+            },
+            {
+              question: "Welche Methode gehört NICHT primär zur Empathize-Phase?",
+              options: [
+                "User Interviews",
+                "Feldbeobachtungen",
+                "Usability-Tests eines fertigen Produkts",
+                "Journey Mapping zur Verständnisbildung"
+              ],
+              correctAnswer: 2,
+              explanation: "Usability-Tests werden typischerweise später mit Prototypen oder Produkten durchgeführt."
+            },
+            {
+              question: "Was ist ein gutes Ergebnis der Define-Phase?",
+              options: [
+                "Ein priorisiertes Backlog",
+                "Ein klar formuliertes Problem-Statement (z.B. HMW)",
+                "Ein MVP-Launch",
+                "Ein detailliertes UI-Design"
+              ],
+              correctAnswer: 1,
+              explanation: "Define führt zu Klarheit über das Problem, u.a. in Form von HMW-Statements."
+            },
+            {
+              question: "Welche Ideation-Technik zielt darauf, schnell viele Varianten zu skizzieren?",
+              options: [
+                "Usability-Testing",
+                "Crazy 8s",
+                "Unit Testing",
+                "Roadmapping"
+              ],
+              correctAnswer: 1,
+              explanation: "Crazy 8s erzeugt 8 verschiedene Ideen in 8 Minuten und fördert Divergenz."
+            },
+            {
+              question: "Welcher Vorteil ist typisch für High-Fidelity-Prototypen?",
+              options: [
+                "Sehr schnell zu erstellen",
+                "Ermöglichen realitätsnäheres Feedback",
+                "Benötigen keine Design-Konsistenz",
+                "Ersetzen den Launch"
+              ],
+              correctAnswer: 1,
+              explanation: "High-Fidelity-Prototypen sind visualisierungsstark und liefern realitätsnäheres Feedback."
+            },
+            {
+              question: "Worauf wird in der Test-Phase besonders geachtet?",
+              options: [
+                "Code Coverage",
+                "Nutzerverhalten, Verständlichkeit und Zielerreichung",
+                "Serverkosten",
+                "Brand Guidelines"
+              ],
+              correctAnswer: 1,
+              explanation: "Tests fokussieren auf Nutzerverhalten, Verständnis und ob die Lösung hilft, Ziele zu erreichen."
+            }
+          ]}
+        />
       {/* Brainstorming Video Modal */}
       {showBrainstorm && (
         <div className="fixed inset-0 z-[999] flex items-center justify-center">
