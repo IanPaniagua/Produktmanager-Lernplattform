@@ -89,7 +89,11 @@ export default function ContentArea({ selectedModuleId }: ContentAreaProps) {
       <div className="container mx-auto px-8 py-12">
         <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8">
           <div className="mb-6">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            <h1 className={`text-4xl font-bold mb-4 ${
+              content.type === "module" 
+                ? "bg-gradient-primary bg-clip-text text-transparent" 
+                : "bg-gradient-secondary bg-clip-text text-transparent"
+            }`}>
               {content.title}
             </h1>
           </div>
