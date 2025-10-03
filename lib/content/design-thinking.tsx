@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Quiz from "@/components/Quiz";
+import Link from "next/link";
 
 export const DesignThinkingContent = () => {
   return (
@@ -462,6 +465,40 @@ export const DesignThinkingContent = () => {
             <span>Aktion vor Analyse - schnelles Testen und Iterieren ist wichtiger als perfekte Planung</span>
           </li>
         </ul>
+      </section>
+
+      {/* Final Exam Button */}
+      <section className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-8">
+        <div className="text-center max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
+            Abschlusstest: Design Thinking
+          </h2>
+          <p className="text-gray-700 mb-6">
+            Teste dein Wissen über Design Thinking mit diesem umfassenden Abschlusstest. 
+            Der Test enthält 11 Fragen aus allen Themenbereichen.
+          </p>
+          <div className="bg-white rounded-lg p-6 mb-6">
+            <h3 className="font-semibold text-gray-900 mb-3">📋 Testformat:</h3>
+            <ul className="text-left text-gray-600 space-y-2">
+              <li>• 11 Multiple-Choice-Fragen</li>
+              <li>• Eine Frage pro Seite</li>
+              <li>• Navigation mit Zurück-Button (ein Schritt)</li>
+              <li>• Detaillierte Ergebnisübersicht am Ende</li>
+              <li>• Mindestens 66% für das Bestehen erforderlich</li>
+            </ul>
+          </div>
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-6">
+            <p className="text-sm font-medium text-yellow-900">
+              ⚠️ Der Test öffnet sich auf einer neuen Seite. Wenn du die Seite verlässt, wird der Test abgebrochen.
+            </p>
+          </div>
+          <Link
+            href="/exam/design-thinking"
+            className="inline-block bg-gradient-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition-opacity"
+          >
+            Test starten
+          </Link>
+        </div>
       </section>
     </div>
   );
