@@ -1,0 +1,166 @@
+{
+    "questions": [
+      {
+        "question": "Welcher der folgenden Faktoren wird im Text als wichtig für erfolgreiche Kommunikation hervorgehoben?",
+        "options": [
+          {
+            "text": "Intensive Nutzung von Fachjargon",
+            "rationale": "Der Text betont die Wichtigkeit von 'Klarheit und Offenheit' und direkt verständlichen Botschaften, was dem Gebrauch von Fachjargon widerspricht."
+          },
+          {
+            "text": "Passende Kommunikationstools wählen",
+            "rationale": "Die bewusste Wahl des richtigen Kanals und Formats wird explizit als ein Erfolgsfaktor genannt."
+          },
+          {
+            "text": "Strikte Einhaltung von Hierarchien",
+            "rationale": "Der Text spricht von 'Kollaboration und Teambeteiligung' und 'Einbindung aller relevanten Stimmen', was einer starren Hierarchie entgegensteht."
+          }
+        ],
+        "correct_answer": "Passende Kommunikationstools wählen"
+      },
+      {
+        "question": "Was bedeutet 'Aktives Zuhören' im Kontext des bereitgestellten Texts?",
+        "options": [
+          {
+            "text": "Nur auf die Worte des Sprechers zu achten",
+            "rationale": "Aktives Zuhören geht über das bloße Hören hinaus und beinhaltet das Verstehen der Botschaft durch Nachfragen und Paraphrasieren."
+          },
+          {
+            "text": "Nachfragen, paraphrasieren und verstehen",
+            "rationale": "Der Text beschreibt aktives Zuhören genau mit diesen Elementen: Nachfragen, Paraphrasieren und das Bestreben, zu verstehen."
+          },
+          {
+            "text": "Die eigene Meinung direkt im Anschluss darlegen",
+            "rationale": "Dies würde das Zuhören unterbrechen und die Konzentration auf den Sprecher stören."
+          }
+        ],
+        "correct_answer": "Nachfragen, paraphrasieren und verstehen"
+      },
+      {
+        "question": "Laut dem Vier-Seiten-Modell von Schulz von Thun, welche der vier Seiten einer Nachricht beschäftigt sich mit der Frage 'Was sollst du tun?'",
+        "options": [
+          {
+            "text": "Beziehungsebene",
+            "rationale": "Die Beziehungsebene gibt Aufschluss darüber, wie der Sender zum Empfänger steht."
+          },
+          {
+            "text": "Appellseite",
+            "rationale": "Die Appellseite einer Nachricht enthält die Aufforderung oder das Anliegen des Senders an den Empfänger."
+          },
+          {
+            "text": "Sachinhalt",
+            "rationale": "Der Sachinhalt bezieht sich auf die Fakten und den reinen Informationsgehalt der Nachricht."
+          }
+        ],
+        "correct_answer": "Appellseite"
+      },
+      {
+        "question": "Was ist das Hauptziel des 'Top-Down Prinzips' in der Kommunikation?",
+        "options": [
+          {
+            "text": "Alle Details von Anfang an zu kommunizieren",
+            "rationale": "Das Top-Down-Prinzip zielt darauf ab, zuerst die Essenz zu vermitteln, nicht alle Details auf einmal."
+          },
+          {
+            "text": "Missverständnisse durch Wiederholung zu vermeiden",
+            "rationale": "Obwohl Wiederholung hilfreich sein kann, ist das primäre Ziel des Top-Down-Prinzips die Schaffung von Klarheit und Erwartungshaltung."
+          },
+          {
+            "text": "Ruhe und klare Erwartungen schaffen, indem man die Essenz zuerst kommuniziert",
+            "rationale": "Dies ist die genaue Beschreibung des Prinzips im bereitgestellten Text. Es geht darum, mit der wichtigsten Information zu beginnen."
+          }
+        ],
+        "correct_answer": "Ruhe und klare Erwartungen schaffen, indem man die Essenz zuerst kommuniziert"
+      },
+      {
+        "question": "Welche der folgenden Ebenen gehört NICHT zu den drei Ebenen der Kommunikationswirkung?",
+        "options": [
+          {
+            "text": "Mentale Ebene",
+            "rationale": "Die im Text genannten Ebenen sind Verbal, Non-verbal und Paraverbal. Die mentale Ebene wird nicht erwähnt."
+          },
+          {
+            "text": "Non-verbal",
+            "rationale": "Die non-verbale Ebene (Mimik, Gestik, Haltung) ist eine der drei genannten Ebenen."
+          },
+          {
+            "text": "Paraverbal",
+            "rationale": "Die paraverbale Ebene (Stimme, Tonfall, Tempo) ist eine der drei genannten Ebenen."
+          }
+        ],
+        "correct_answer": "Mentale Ebene"
+      },
+      {
+        "question": "Was beschreibt die 'non-verbale' Kommunikationsebene am besten?",
+        "options": [
+          {
+            "text": "Wortwahl und Satzbau",
+            "rationale": "Die Wortwahl und der Satzbau sind Teil der verbalen Kommunikationsebene."
+          },
+          {
+            "text": "Lautstärke und Betonung",
+            "rationale": "Lautstärke und Betonung gehören zur paraverbalen Kommunikationsebene."
+          },
+          {
+            "text": "Mimik, Gestik und Haltung",
+            "rationale": "Der Text beschreibt die non-verbale Kommunikation als die Ebene von Mimik, Gestik und Haltung."
+          }
+        ],
+        "correct_answer": "Mimik, Gestik und Haltung"
+      },
+      {
+        "question": "Welche Aussage trifft laut dem Text auf die Wirkung von Kommunikation zu?",
+        "options": [
+          {
+            "text": "Der reine Inhalt (verbal) ist der wichtigste Faktor.",
+            "rationale": "Der Text besagt, dass 'Emotion und Körpersprache die Wirkung oft stärker prägen als der reine Inhalt'."
+          },
+          {
+            "text": "Die paraverbale Ebene ist irrelevant.",
+            "rationale": "Die paraverbale Ebene ist eine der drei aufgeführten Ebenen und hat eine direkte Auswirkung auf die Wirkung der Kommunikation."
+          },
+          {
+            "text": "Emotion und Körpersprache prägen die Wirkung oft stärker als der reine Inhalt.",
+            "rationale": "Dies ist eine direkte und wichtige Aussage aus dem bereitgestellten Text, die die Bedeutung der non-verbalen und paraverbalen Ebene unterstreicht."
+          }
+        ],
+        "correct_answer": "Emotion und Körpersprache prägen die Wirkung oft stärker als der reine Inhalt."
+      },
+      {
+        "question": "Was gehört zu den 'Erwartungen & ToDos' im Kontext effizienter Kommunikation?",
+        "options": [
+          {
+            "text": "Alle Teammitglieder ständig informieren",
+            "rationale": "Es geht nicht darum, ständig zu informieren, sondern klare Erwartungen und Aufgaben zu kommunizieren."
+          },
+          {
+            "text": "Klare Erwartungen kommunizieren und Feedback-Regeln definieren",
+            "rationale": "Der Text listet 'Klare Erwartungen kommunizieren' und 'Feedback-Regeln definieren' als wichtige Aspekte der 'Erwartungen & ToDos' auf."
+          },
+          {
+            "text": "Ausschließlich schriftlich kommunizieren",
+            "rationale": "Der Text betont die Wichtigkeit, den passenden Kanal zu wählen, und schränkt dies nicht auf schriftliche Kommunikation ein."
+          }
+        ],
+        "correct_answer": "Klare Erwartungen kommunizieren und Feedback-Regeln definieren"
+      },
+      {
+        "question": "Warum ist 'Transparenz zu Miss-/Erfolgen' ein wichtiger Erfolgsfaktor für Kommunikation?",
+        "options": [
+          {
+            "text": "Es hilft, Verantwortlichkeiten abzuschieben.",
+            "rationale": "Das Ziel ist, aus Fehlern zu lernen und nicht, die Schuld abzuschieben."
+          },
+          {
+            "text": "Um Learnings offen zu teilen und das Team zu stärken.",
+            "rationale": "Der Text nennt 'Learnings offen teilen' als direkten Grund für Transparenz über Miss- und Erfolge."
+          },
+          {
+            "text": "Um nur die Erfolge hervorzuheben.",
+            "rationale": "Transparenz bezieht sich auf beides: Erfolge und Misserfolge, um eine ausgewogene und lernorientierte Kultur zu fördern."
+          }
+        ],
+        "correct_answer": "Um Learnings offen zu teilen und das Team zu stärken."
+      }
+    ]
+  }

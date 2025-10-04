@@ -111,6 +111,9 @@ export default function Sidebar({
                             <a href="#key-takeaways" className="block text-xs text-gray-600 hover:text-primary-end">
                               Key Takeaways
                             </a>
+                            <a href="#abschlusstest" className="block text-xs text-gray-600 hover:text-primary-end">
+                              Abschlusstest
+                            </a>
                           </nav>
                         )}
                         {selectedModuleId === subModule.id && subModule.content === "effektivitaet" && showSubNav && (
@@ -129,6 +132,7 @@ export default function Sidebar({
                             <a href="#ownership" className="block text-xs text-gray-600 hover:text-primary-end">Ownership</a>
                             <a href="#resilienz" className="block text-xs text-gray-600 hover:text-primary-end">Resilienz</a>
                             <a href="#feedback" className="block text-xs text-gray-600 hover:text-primary-end">Feedback</a>
+                            <a href="#abschlusstest" className="block text-xs text-gray-600 hover:text-primary-end">Abschlusstest</a>
                           </nav>
                         )}
                       </div>

@@ -1,0 +1,58 @@
+{
+    "questions": [
+      {
+        "question": "Welche Priorisierungsmethode wird im Text mit der Frage 'Wenn heute nur eine Sache vorankommt—welche?' beschrieben?",
+        "options": [
+          {
+            "text": "Eisenhower-Matrix",
+            "rationale": "Die Eisenhower-Matrix kategorisiert Aufgaben nach 'wichtig/unwichtig' und 'dringend/nicht dringend'."
+          },
+          {
+            "text": "One Thing",
+            "rationale": "Die 'One Thing'-Methode konzentriert sich genau darauf, die eine wichtigste Aufgabe des Tages zu identifizieren."
+          },
+          {
+            "text": "Regelmäßige Reflexion",
+            "rationale": "Regelmäßige Reflexion ist ein Prozess zur Überprüfung der Prioritäten, keine Methode zur anfänglichen Auswahl einer Aufgabe."
+          }
+        ],
+        "correct_answer": "One Thing"
+      },
+      {
+        "question": "Nach welchen zwei Kriterien werden Aufgaben in der Eisenhower-Matrix beurteilt?",
+        "options": [
+          {
+            "text": "Aufwand und Dringlichkeit",
+            "rationale": "Der Text nennt die Kriterien 'wichtig/unwichtig' und 'dringend/nicht dringend', nicht 'Aufwand'."
+          },
+          {
+            "text": "Wichtigkeit und Dringlichkeit",
+            "rationale": "Die Eisenhower-Matrix ist eine Methode zur Kategorisierung von Aufgaben basierend auf ihrer Wichtigkeit und Dringlichkeit."
+          },
+          {
+            "text": "Frist und Umfang",
+            "rationale": "Frist und Umfang sind keine der beiden Kriterien, die im Text für die Eisenhower-Matrix genannt werden."
+          }
+        ],
+        "correct_answer": "Wichtigkeit und Dringlichkeit"
+      },
+      {
+        "question": "Was beinhaltet die 'Regelmäßige Reflexion' laut dem Text?",
+        "options": [
+          {
+            "text": "Tagesziele festlegen, ohne sie zu überprüfen",
+            "rationale": "Der Text betont, dass es darum geht, die Einhaltung der Prioritäten zu überprüfen und zu überlegen, was man beim nächsten Mal ändert."
+          },
+          {
+            "text": "Die Prioritäten neu bewerten, nur wenn neue Aufgaben hinzukommen",
+            "rationale": "Die regelmäßige Reflexion ist ein kontinuierlicher Prozess, der idealerweise täglich stattfindet, unabhängig von neuen Aufgaben."
+          },
+          {
+            "text": "Überprüfen, ob man sich an die Priorität gehalten hat und was man nächstes Mal ändert",
+            "rationale": "Der Text beschreibt 'Regelmäßige Reflexion' genau mit diesen Aspekten: Überprüfung der Einhaltung und Planung für die Zukunft."
+          }
+        ],
+        "correct_answer": "Überprüfen, ob man sich an die Priorität gehalten hat und was man nächstes Mal ändert"
+      }
+    ]
+  }

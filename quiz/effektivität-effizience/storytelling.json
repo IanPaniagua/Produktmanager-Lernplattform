@@ -1,0 +1,112 @@
+{
+    "questions": [
+      {
+        "question": "Was ist das Hauptziel von Storytelling, wie es im Text beschrieben wird?",
+        "options": [
+          {
+            "text": "Abstrakte Informationen durch eine wissenschaftliche Analyse zu vermitteln",
+            "rationale": "Das Hauptziel ist, abstrakte Inhalte durch eine emotionale, erzählerische Struktur greifbar zu machen, nicht durch wissenschaftliche Analyse."
+          },
+          {
+            "text": "Menschen emotional ansprechen, um sie zu informieren und zu inspirieren",
+            "rationale": "Der Text erklärt, dass Storytelling Menschen emotional anspricht und nicht nur informiert, sondern auch bewegt und zum Handeln inspiriert."
+          },
+          {
+            "text": "Einen starren, faktenbasierten Bericht zu erstellen",
+            "rationale": "Das Storytelling-Grundprinzip steht im Gegensatz zu einem starren, rein faktenbasierten Bericht, da es eine erzählerische Struktur nutzt."
+          }
+        ],
+        "correct_answer": "Menschen emotional ansprechen, um sie zu informieren und zu inspirieren"
+      },
+      {
+        "question": "Welchem dramaturgischen Muster folgt eine gute Geschichte laut dem Text?",
+        "options": [
+          {
+            "text": "Zufällige Aneinanderreihung von Ereignissen",
+            "rationale": "Das Grundprinzip beschreibt einen klaren Spannungsbogen und keine zufällige Aneinanderreihung von Ereignissen."
+          },
+          {
+            "text": "Anfang, Mitte, Ende, ohne Konflikt",
+            "rationale": "Der Text betont, dass eine gute Geschichte einen Anfang, einen Konflikt und eine Auflösung benötigt, was der 'Mitte' entspricht."
+          },
+          {
+            "text": "Einem Spannungsbogen mit Anfang, Konflikt und Auflösung",
+            "rationale": "Dies ist die explizite Definition des Storytelling-Spannungsbogens im Text."
+          }
+        ],
+        "correct_answer": "Einem Spannungsbogen mit Anfang, Konflikt und Auflösung"
+      },
+      {
+        "question": "Was soll laut den 'Elementen einer guten Story' im Mittelpunkt stehen?",
+        "options": [
+          {
+            "text": "Das Produkt oder die Idee",
+            "rationale": "Der Text betont, dass nicht das Produkt im Mittelpunkt stehen soll, sondern ein Protagonist, mit dem sich die Zuhörer identifizieren können."
+          },
+          {
+            "text": "Ein Protagonist, der im Mittelpunkt steht",
+            "rationale": "Ein Protagonist ist das zentrale Element, um eine emotionale Verbindung herzustellen und das Publikum zu binden."
+          },
+          {
+            "text": "Die Logik und Fakten des Problems",
+            "rationale": "Obwohl Fakten wichtig sind, liegt der Fokus des Storytellings auf der emotionalen, erzählerischen Struktur und nicht nur auf der Logik."
+          }
+        ],
+        "correct_answer": "Ein Protagonist, der im Mittelpunkt steht"
+      },
+      {
+        "question": "Welche Rolle spielen 'Emotionen' in einer guten Geschichte?",
+        "options": [
+          {
+            "text": "Sie dienen dazu, die Zuhörer zu verwirren.",
+            "rationale": "Das Wecken von Emotionen soll eine Verbindung herstellen, nicht Verwirrung stiften."
+          },
+          {
+            "text": "Sie wecken kein Interesse am Protagonisten.",
+            "rationale": "Der Text erklärt, dass Emotionen die Identifikation mit dem Protagonisten und der Geschichte verstärken."
+          },
+          {
+            "text": "Sie helfen dem Publikum, sich besser mit der Geschichte zu identifizieren.",
+            "rationale": "Das Wecken von Emotionen wird als wichtiges Element genannt, um die Zuhörer emotional zu binden und die Identifikation mit den Figuren zu fördern."
+          }
+        ],
+        "correct_answer": "Sie helfen dem Publikum, sich besser mit der Geschichte zu identifizieren."
+      },
+      {
+        "question": "Was ist der Zweck von 'Ziel & Hindernisse' in einer Story?",
+        "options": [
+          {
+            "text": "Sie machen die Geschichte vorhersehbar.",
+            "rationale": "Ein klares Ziel und Hindernisse machen die Geschichte fesselnd und nicht unbedingt vorhersehbar."
+          },
+          {
+            "text": "Sie transportieren die Botschaft der Geschichte.",
+            "rationale": "Der Text besagt, dass die Herausforderungen, die der Protagonist überwindet, genutzt werden, um die Botschaft der Geschichte zu transportieren."
+          },
+          {
+            "text": "Sie dienen nur zur Unterhaltung, ohne eine tiefere Bedeutung.",
+            "rationale": "Das Überwinden von Herausforderungen hat einen direkten Bezug zur Botschaft und ist nicht nur zur Unterhaltung da."
+          }
+        ],
+        "correct_answer": "Sie transportieren die Botschaft der Geschichte."
+      },
+      {
+        "question": "Welche Aussage beschreibt das 'Grundprinzip' von Storytelling am besten?",
+        "options": [
+          {
+            "text": "Es geht darum, Fakten in eine formale, strukturierte Liste zu bringen.",
+            "rationale": "Das Grundprinzip von Storytelling ist erzählerisch und emotional, nicht formal oder als Liste."
+          },
+          {
+            "text": "Es ist eine Methode, um Menschen zu unterhalten, ohne eine tiefere Botschaft.",
+            "rationale": "Das Ziel ist, zu informieren und zu inspirieren, nicht nur zu unterhalten."
+          },
+          {
+            "text": "Es ist eine Methode, Informationen durch eine erzählerische Struktur greifbar und einprägsam zu machen.",
+            "rationale": "Dies ist die Kerndefinition des Storytelling-Grundprinzips: Informationen emotional und narrativ zu vermitteln, um sie einprägsamer zu machen."
+          }
+        ],
+        "correct_answer": "Es ist eine Methode, Informationen durch eine erzählerische Struktur greifbar und einprägsam zu machen."
+      }
+    ]
+  }

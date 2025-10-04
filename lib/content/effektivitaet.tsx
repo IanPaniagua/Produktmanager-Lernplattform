@@ -1,17 +1,193 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
+import Link from "next/link";
 import VideoModal from "@/components/VideoModal";
+import Quiz from "@/components/Quiz";
+import introQuizRaw from "@/quiz/effektivität-effizience/Einführung-Effektivität-und-Effizienz-als-PM.json" assert { type: "json" };
+import kommunikationQuizRaw from "@/quiz/effektivität-effizience/kommunikation.json" assert { type: "json" };
+import zeitmanagementQuizRaw from "@/quiz/effektivität-effizience/zeitmanagement.json" assert { type: "json" };
+import priorisierungQuizRaw from "@/quiz/effektivität-effizience/priorizierung-aufgaben.json" assert { type: "json" };
+import storytellingQuizRaw from "@/quiz/effektivität-effizience/storytelling.json" assert { type: "json" };
+import slidesQuizRaw from "@/quiz/effektivität-effizience/slides.json" assert { type: "json" };
+import finalQuizRaw from "@/quiz/effektivität-effizience/quiz-effectivität-efficience.json" assert { type: "json" };
+
+type IntroQuizJson = {
+  questions: Array<{
+    question: string;
+    options: Array<{ text: string; rationale?: string }>;
+    correct_answer: string;
+  }>;
+};
 
 export const EffektivitaetContent = () => {
   const [showVerbalVideo, setShowVerbalVideo] = useState(false);
   const [showSlidesVideo, setShowSlidesVideo] = useState(false);
   const [showGoogleSlidesVideo, setShowGoogleSlidesVideo] = useState(false);
   const [showScrVideo, setShowScrVideo] = useState(false);
+  const [quizMode, setQuizMode] = useState(false);
+
+  // Map JSON structure to Quiz component props
+  const introQuizQuestions = useMemo(() => {
+    const data = introQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const kommunikationQuizQuestions = useMemo(() => {
+    const data = kommunikationQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const zeitmanagementQuizQuestions = useMemo(() => {
+    const data = zeitmanagementQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const priorisierungQuizQuestions = useMemo(() => {
+    const data = priorisierungQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const storytellingQuizQuestions = useMemo(() => {
+    const data = storytellingQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const slidesQuizQuestions = useMemo(() => {
+    const data = slidesQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
+
+  const finalQuizQuestions = useMemo(() => {
+    const data = finalQuizRaw as unknown as IntroQuizJson;
+    return data.questions.map((q) => {
+      const optionTexts = q.options.map((o) => o.text);
+      const correctIndex = optionTexts.findIndex(
+        (t) => t.trim() === q.correct_answer.trim()
+      );
+      return {
+        question: q.question,
+        options: optionTexts,
+        correctAnswer: Math.max(0, correctIndex),
+        explanation:
+          correctIndex >= 0 && q.options[correctIndex]?.rationale
+            ? q.options[correctIndex].rationale
+            : undefined,
+      };
+    });
+  }, []);
 
   return (
     <>
     <div className="relative space-y-12">
+      {/* Quiz Mode Toggle & Test Button */}
+      <div className="absolute -top-2 -right-2 z-50 flex gap-2">
+        <button
+          onClick={() => setQuizMode(!quizMode)}
+          className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-lg ${
+            quizMode
+              ? "bg-gradient-primary text-white"
+              : "bg-gradient-secondary text-white hover:opacity-90"
+          }`}
+        >
+          {quizMode ? "Theorie anzeigen" : "Nur QUIZ anzeigen"}
+        </button>
+        <button
+          onClick={() => {
+            const testSection = document.getElementById('abschlusstest');
+            if (testSection) {
+              testSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }}
+          className="bg-gradient-primary text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all shadow-lg hover:opacity-90"
+        >
+          Zum Test
+        </button>
+      </div>
       {/* Einführung */}
       <section>
         <h2 id="einfuhrung" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Einführung Effektivität und Effizienz als PM</h2>
@@ -142,6 +318,13 @@ export const EffektivitaetContent = () => {
               Ein effektiver PM wählt die wichtigsten Features, ein effizienter setzt sie ressourcensparend um.
             </p>
           </div>
+          {/* Quiz: Einführung Effektivität und Effizienz als PM */}
+          <div id="quiz-einfuhrung" className="pt-6">
+            <Quiz
+              title="Quiz: Einführung Effektivität und Effizienz als PM"
+              questions={introQuizQuestions}
+            />
+          </div>
         </div>
       </section>
 
@@ -172,6 +355,11 @@ export const EffektivitaetContent = () => {
             <p className="text-gray-700 mb-3">25 Minuten Fokus, 5 Minuten Pause. Ziele: Motivation hochhalten, große Pakete zerlegen, regelmäßige Belohnung.</p>
           </div>
 
+          {/* Quiz: Zeitmanagement */}
+          <div id="quiz-zeitmanagement" className="pt-2">
+            <Quiz title="Quiz: Zeitmanagement" questions={zeitmanagementQuizQuestions} />
+          </div>
+
         </div>
       </section>
 
@@ -199,6 +387,17 @@ export const EffektivitaetContent = () => {
             </div>
           </div>
 
+          {/* Quiz: Priorisierung deiner Aufgaben */}
+          <div id="quiz-priorisierung" className="pt-6">
+            <Quiz title="Quiz: Priorisierung deiner Aufgaben" questions={priorisierungQuizQuestions} />
+          </div>
+        </div>
+      </section>
+
+      {/* Kommunikation */}
+      <section>
+        <h2 id="kommunikation" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Kommunikation</h2>
+        <div className="space-y-6">
           {/* Kommunikationskanal & Tools */}
           <div className="bg-white border border-gray-200 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-4">
@@ -226,13 +425,7 @@ export const EffektivitaetContent = () => {
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Kommunikation */}
-      <section>
-        <h2 id="kommunikation" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Kommunikation</h2>
-        <div className="space-y-6">
           {/* Erfolgsfaktoren */}
           <div className="bg-white border border-gray-200 rounded-xl p-6">
             <div className="flex items-center gap-3 mb-4">
@@ -428,6 +621,10 @@ export const EffektivitaetContent = () => {
                 ▶ Video ansehen
               </button>
             </div>
+            {/* Quiz: Kommunikation */}
+            <div id="quiz-kommunikation" className="pt-6">
+              <Quiz title="Quiz: Kommunikation" questions={kommunikationQuizQuestions} />
+            </div>
           </div>
         </div>
       </section>
@@ -494,6 +691,10 @@ export const EffektivitaetContent = () => {
             </div>
           </div>
 
+          {/* Quiz: Storytelling */}
+          <div id="quiz-storytelling" className="pt-6">
+            <Quiz title="Quiz: Storytelling" questions={storytellingQuizQuestions} />
+          </div>
         </div>
       </section>
 
@@ -621,6 +822,11 @@ export const EffektivitaetContent = () => {
               <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent">Bilder & Lizenzen</h3>
             </div>
             <p className="text-gray-700">Lizenzen beachten; kostenlose Quellen nutzen oder AI-generierte Bilder verwenden.</p>
+          </div>
+
+          {/* Quiz: Präsentationen in Slides */}
+          <div id="quiz-slides" className="pt-6">
+            <Quiz title="Quiz: Präsentationen in Slides" questions={slidesQuizQuestions} />
           </div>
         </div>
       </section>
@@ -1056,6 +1262,49 @@ export const EffektivitaetContent = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Quiz Final: Effektivität & Effizienz */}
+      <section className="mt-12">
+        <h2 id="quiz-final" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Abschluss-Quiz: Effektivität & Effizienz</h2>
+        <div className="bg-gradient-to-r from-primary-start/5 to-secondary-end/5 rounded-xl p-6">
+          <p className="text-gray-700 mb-6">
+            Teste dein Wissen über alle Themen: Kritisches Denken, Ownership, Resilienz, Feedback, Icebreaker und Meetings.
+          </p>
+          <Quiz title="Quiz: Effektivität & Effizienz" questions={finalQuizQuestions} />
+        </div>
+      </section>
+
+      {/* Abschlusstest */}
+      <section>
+        <h2 id="abschlusstest" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Abschlusstest</h2>
+        <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-8">
+        <div className="text-center max-w-2xl mx-auto">
+          <h3 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
+            Abschlusstest: Persönliche Effektivität & Effizienz
+          </h3>
+          <p className="text-gray-700 mb-6">
+            Teste dein Wissen über Effektivität & Effizienz mit diesem umfassenden Abschlusstest. 
+            Der Test enthält alle Fragen aus den Themenbereichen.
+          </p>
+          <div className="bg-white rounded-lg p-6 mb-6">
+            <h3 className="font-semibold text-gray-900 mb-3">📋 Testformat:</h3>
+            <ul className="text-left text-gray-600 space-y-2">
+              <li>• 60+ Multiple-Choice-Fragen</li>
+              <li>• Eine Frage pro Seite</li>
+              <li>• Navigation mit Zurück-Button (ein Schritt)</li>
+              <li>• Detaillierte Ergebnisübersicht am Ende</li>
+              <li>• Mindestens 66% für das Bestehen erforderlich</li>
+            </ul>
+          </div>
+          <Link
+            href="/exam/effektivitaet-effizienz"
+            className="inline-block bg-gradient-primary text-white px-8 py-4 rounded-lg font-semibold text-lg hover:opacity-90 transition-opacity"
+          >
+            Test starten
+          </Link>
+        </div>
         </div>
       </section>
     </div>

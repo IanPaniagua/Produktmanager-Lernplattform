@@ -1,0 +1,166 @@
+{
+    "questions": [
+      {
+        "question": "Was ist der entscheidende Faktor, der den Aufbau und das Detaillevel einer Präsentation bestimmen sollte?",
+        "options": [
+          {
+            "text": "Die Dauer des Vortrags",
+            "rationale": "Die Dauer ist ein wichtiger Aspekt, aber der Text betont, dass der übergeordnete 'Zweck' der Präsentation (Konferenz, Report, etc.) entscheidend ist."
+          },
+          {
+            "text": "Der Verwendungszweck der Präsentation",
+            "rationale": "Der Text stellt klar, dass der Zweck, für den die Präsentation gedacht ist, entscheidend für den Aufbau und das Detaillevel ist."
+          },
+          {
+            "text": "Die Anzahl der verfügbaren Folien",
+            "rationale": "Die Anzahl der Folien kann variieren, aber sie ist eine Folge des Zwecks, nicht der entscheidende Faktor selbst."
+          }
+        ],
+        "correct_answer": "Der Verwendungszweck der Präsentation"
+      },
+      {
+        "question": "Welche Regel gilt generell für Präsentationen laut dem Text?",
+        "options": [
+          {
+            "text": "Jede Folie sollte so viele Details wie möglich enthalten.",
+            "rationale": "Der Text empfiehlt, bei Konferenzen nur wenige Inhalte darzustellen, was dieser Aussage widerspricht."
+          },
+          {
+            "text": "'Form follows Function'",
+            "rationale": "Dies ist die explizit genannte Regel im Text, die besagt, dass die Form dem Zweck folgen sollte."
+          },
+          {
+            "text": "Die Gestaltung ist wichtiger als der Inhalt.",
+            "rationale": "Der Text betont, dass der Zweck (Funktion) die Gestaltung (Form) bestimmt, was die Wichtigkeit des Inhalts und Zwecks unterstreicht."
+          }
+        ],
+        "correct_answer": "'Form follows Function'"
+      },
+      {
+        "question": "Warum wird empfohlen, bei einem Konferenzvortrag nur wenige Inhalte auf den Slides zu haben?",
+        "options": [
+          {
+            "text": "Um die Zeit zu sparen und schnell fertig zu werden.",
+            "rationale": "Der Hauptgrund ist die Fokussierung des Publikums, nicht die Zeitersparnis."
+          },
+          {
+            "text": "Damit die Zuhörerschaft auf den Redner fokussiert ist.",
+            "rationale": "Der Text besagt, dass dies der Zweck von wenig Inhalt pro Folie bei einem Konferenzvortrag ist."
+          },
+          {
+            "text": "Um die Präsentation weniger professionell aussehen zu lassen.",
+            "rationale": "Das Weglassen von Details dient der Fokussierung, nicht dazu, unprofessionell zu wirken."
+          }
+        ],
+        "correct_answer": "Damit die Zuhörerschaft auf den Redner fokussiert ist."
+      },
+      {
+        "question": "Was ist der Hauptzweck von 'Templates' bei Präsentationen?",
+        "options": [
+          {
+            "text": "Sie machen die Präsentation einzigartig und individuell.",
+            "rationale": "Templates sorgen für 'Konsistenz' und Professionalität, was dem einzigartigen Aussehen entgegensteht."
+          },
+          {
+            "text": "Zeitersparnis, Konsistenz und Professionalität",
+            "rationale": "Diese drei Vorteile werden im Text explizit als Gründe für die Nutzung von Templates genannt."
+          },
+          {
+            "text": "Sie sind nur für Anfänger geeignet.",
+            "rationale": "Templates werden als 'Best Practice' für jeden empfohlen, nicht nur für Anfänger."
+          }
+        ],
+        "correct_answer": "Zeitersparnis, Konsistenz und Professionalität"
+      },
+      {
+        "question": "Was ist die Kernbotschaft eines 'Action Title'?",
+        "options": [
+          {
+            "text": "Ein kurzer, prägnanter Satz, der die Essenz der Folie vermittelt.",
+            "rationale": "Dies ist die genaue Definition von Action Titles im Text: Sie fassen die Kernbotschaft zusammen und beantworten die Frage 'So what?'."
+          },
+          {
+            "text": "Eine Frage, die das Publikum zur Diskussion anregt.",
+            "rationale": "Action Titles sind Aussagesätze, die die Essenz der Folie zusammenfassen, keine Fragen."
+          },
+          {
+            "text": "Ein einfacher Titel, der das Thema der Folie benennt.",
+            "rationale": "Der Text vergleicht einen einfachen Titel wie 'Marktanteile von funny shoes' mit einem Action Title, der die Essenz zusammenfasst."
+          }
+        ],
+        "correct_answer": "Ein kurzer, prägnanter Satz, der die Essenz der Folie vermittelt."
+      },
+      {
+        "question": "Was ermöglicht das 'SCR Framework' für eine Präsentation?",
+        "options": [
+          {
+            "text": "Die visuelle Gestaltung jeder Folie zu verbessern.",
+            "rationale": "Das SCR-Framework ist ein 'Story-Rahmen' und hat mit der inhaltlichen Struktur zu tun, nicht mit der visuellen Gestaltung."
+          },
+          {
+            "text": "Eine Geschichte zu erzählen, indem eine klare Struktur von Situation, Komplikation und Auflösung verwendet wird.",
+            "rationale": "Der Text beschreibt das SCR-Framework genau als diesen Story-Rahmen (Situation–Complication–Resolution)."
+          },
+          {
+            "text": "Die Präsentation in einem einzigen Satz zusammenzufassen.",
+            "rationale": "Diese Funktion erfüllt der 'Action Title', nicht das SCR-Framework."
+          }
+        ],
+        "correct_answer": "Eine Geschichte zu erzählen, indem eine klare Struktur von Situation, Komplikation und Auflösung verwendet wird."
+      },
+      {
+        "question": "Was ist der Idealzustand, den man mit 'Action Titles' erreichen sollte?",
+        "options": [
+          {
+            "text": "Jede Folie mit einem Untertitel zu versehen.",
+            "rationale": "Der Idealzustand geht darüber hinaus, es geht darum, die Essenz der gesamten Präsentation nur durch die Titel zu verstehen."
+          },
+          {
+            "text": "Dass die gesamte Präsentation allein über die Titel nachvollziehbar ist.",
+            "rationale": "Dies ist die genaue Definition des 'Idealzustands' im Text."
+          },
+          {
+            "text": "Die Folien mit vielen Fakten zu füllen, um die Titel zu unterstützen.",
+            "rationale": "Action Titles sollen die Essenz auf einen Blick vermitteln und sind nicht dazu gedacht, die Folien mit zu vielen Informationen zu überladen."
+          }
+        ],
+        "correct_answer": "Dass die gesamte Präsentation allein über die Titel nachvollziehbar ist."
+      },
+      {
+        "question": "Was bedeutet 'Ausrichten & Verteilen' im Kontext von 'Visuellen Basics'?",
+        "options": [
+          {
+            "text": "Dass alle Elemente auf der Folie so nah wie möglich beieinander liegen sollten.",
+            "rationale": "Das Gegenteil ist der Fall, die Elemente sollten gleichmäßig verteilt und ausgerichtet sein."
+          },
+          {
+            "text": "Dass die Elemente auf den Folien einen professionellen Eindruck machen und weniger Störgefühle erzeugen.",
+            "rationale": "Der Text nennt die 'Reduzierung von Störgefühlen' und die Erzeugung eines 'professionellen Eindrucks' als Zweck dieser Praxis."
+          },
+          {
+            "text": "Es bezieht sich auf die Verteilung von Handouts an die Zuhörer.",
+            "rationale": "Der Begriff 'Verteilen' bezieht sich hier auf die Anordnung von Elementen auf einer Folie und nicht auf Handouts."
+          }
+        ],
+        "correct_answer": "Dass die Elemente auf den Folien einen professionellen Eindruck machen und weniger Störgefühle erzeugen."
+      },
+      {
+        "question": "Wie kann man mit 'Action Titles' einen flüssigen Übergang zwischen Folien erzeugen?",
+        "options": [
+          {
+            "text": "Durch die Verwendung von animierten Übergängen zwischen den Folien.",
+            "rationale": "Der Text bezieht sich auf die inhaltliche Gestaltung der Titel selbst, nicht auf die technischen Übergänge."
+          },
+          {
+            "text": "Durch die Nutzung von Punkten vor und nach dem Titel.",
+            "rationale": "Dies ist die explizite Technik, die im Text genannt wird, um flüssige Übergänge zu schaffen."
+          },
+          {
+            "text": "Indem man alle Titel im gleichen Stil formatiert.",
+            "rationale": "Die konsistente Formatierung ist eine Best Practice, aber sie erzeugt nicht allein den 'flüssigen Übergang' zwischen den Titeln."
+          }
+        ],
+        "correct_answer": "Durch die Nutzung von Punkten vor und nach dem Titel."
+      }
+    ]
+  }

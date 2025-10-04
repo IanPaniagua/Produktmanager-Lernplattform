@@ -1,0 +1,40 @@
+{
+    "questions": [
+      {
+        "question": "Welche der folgenden Strategien wird im Text für ein besseres Kalendermanagement empfohlen?",
+        "options": [
+          {
+            "text": "Den Tag als variable Zeit betrachten und den Umfang als fixiert",
+            "rationale": "Der Text empfiehlt, den Tag als 'fixed time' zu betrachten und den 'Scope' (Umfang) als variabel."
+          },
+          {
+            "text": "Die Anzahl der Meetings erhöhen, um mehr Abstimmungen zu haben",
+            "rationale": "Die Empfehlung ist, 'weniger Meetings' zu vereinbaren, um sich besser zu fokussieren."
+          },
+          {
+            "text": "Fokuszeit blocken, um Ablenkungen zu reduzieren",
+            "rationale": "Dies ist eine direkte Empfehlung aus dem Text, um die Produktivität zu steigern."
+          }
+        ],
+        "correct_answer": "Fokuszeit blocken, um Ablenkungen zu reduzieren"
+      },
+      {
+        "question": "Was ist das Hauptziel der Pomodoro-Technik, wie sie im Text beschrieben wird?",
+        "options": [
+          {
+            "text": "Einen langen, ununterbrochenen Arbeitszyklus beibehalten",
+            "rationale": "Die Pomodoro-Technik ist speziell darauf ausgelegt, die Arbeit in kurze, fokussierte Intervalle mit regelmäßigen Pausen zu unterteilen."
+          },
+          {
+            "text": "Motivation hochhalten und große Pakete in kleinere zerlegen",
+            "rationale": "Der Text nennt genau diese Ziele: Motivation steigern, große Aufgaben zerlegen und regelmäßige Belohnungen schaffen."
+          },
+          {
+            "text": "Den gesamten Arbeitstag im Voraus planen, ohne Flexibilität",
+            "rationale": "Die Technik bezieht sich auf die konkrete Ausführung der Arbeit, nicht auf die gesamte Tagesplanung ohne jegliche Flexibilität."
+          }
+        ],
+        "correct_answer": "Motivation hochhalten und große Pakete in kleinere zerlegen"
+      }
+    ]
+  }

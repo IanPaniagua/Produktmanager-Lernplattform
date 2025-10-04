@@ -1156,12 +1156,14 @@ export const DesignThinkingContent = () => {
         </ul>
       </section>
 
-      {/* Final Exam Button */}
-      <section id="test" className="scroll-mt-24 bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-8">
+      {/* Abschlusstest */}
+      <section>
+        <h2 id="abschlusstest" className="scroll-mt-24 text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">Abschlusstest</h2>
+        <div className="bg-gradient-to-r from-secondary-start/10 to-secondary-end/10 rounded-xl p-8">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
+          <h3 className="text-3xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
             Abschlusstest: Design Thinking
-          </h2>
+          </h3>
           <p className="text-gray-700 mb-6">
             Teste dein Wissen über Design Thinking mit diesem umfassenden Abschlusstest. 
             Der Test enthält 27 Fragen aus allen Themenbereichen.
@@ -1182,6 +1184,7 @@ export const DesignThinkingContent = () => {
           >
             Test starten
           </Link>
+        </div>
         </div>
       </section>
     </div>

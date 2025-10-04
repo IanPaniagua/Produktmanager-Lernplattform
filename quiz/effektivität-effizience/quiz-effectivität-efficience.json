@@ -1,0 +1,184 @@
+{
+    "questions": [
+      {
+        "question": "Welches der folgenden Ziele gehört zum 'Kritischen Denken'?",
+        "options": [
+          {
+            "text": "Sich auf eine einzige Informationsquelle zu verlassen.",
+            "rationale": "Kritisches Denken erfordert die Auseinandersetzung mit verschiedenen Perspektiven, nicht die Beschränkung auf eine Quelle."
+          },
+          {
+            "text": "Wesentliches von Unwesentlichem trennen.",
+            "rationale": "Das Trennen des Wesentlichen vom Unwesentlichen ist ein explizit genanntes Ziel des kritischen Denkens."
+          },
+          {
+            "text": "Schnell Urteile fällen, ohne tiefergehende Analyse.",
+            "rationale": "Das Ziel ist das Gegenteil: komplexe Sachverhalte schnell und gründlich zu erfassen."
+          }
+        ],
+        "correct_answer": "Wesentliches von Unwesentlichem trennen."
+      },
+      {
+        "question": "Was ist das Hauptprinzip des 'Circle of Influence' im Kontext von Ownership?",
+        "options": [
+          {
+            "text": "Sich auf die Probleme anderer zu konzentrieren, um Lösungen zu finden.",
+            "rationale": "Der 'Circle of Influence' konzentriert sich auf die eigenen, beeinflussbaren Bereiche."
+          },
+          {
+            "text": "Seine Energie auf Dinge zu richten, die man direkt beeinflussen kann.",
+            "rationale": "Dies ist die Kerndefinition des 'Circle of Influence', die proaktives Handeln anstelle von Schuldzuweisungen fördert."
+          },
+          {
+            "text": "Opfer von Umständen zu sein und passiv zu bleiben.",
+            "rationale": "Das Prinzip fördert proaktives Handeln und steht im direkten Gegensatz zur Opferhaltung."
+          }
+        ],
+        "correct_answer": "Seine Energie auf Dinge zu richten, die man direkt beeinflussen kann."
+      },
+      {
+        "question": "Warum ist Resilienz für Produktmanager besonders wichtig?",
+        "options": [
+          {
+            "text": "Um stets die Kontrolle über alle Projekte zu behalten.",
+            "rationale": "Resilienz hilft, mit unvermeidbaren Rückschlägen und Veränderungen umzugehen, nicht die Kontrolle über alles zu behalten."
+          },
+          {
+            "text": "Weil Rückschläge und ständige Veränderungen im Produktmanagement unvermeidlich sind.",
+            "rationale": "Der Text betont, dass Resilienz wichtig ist, um Rückschläge zu bewältigen und sich an ständig ändernde Anforderungen anzupassen."
+          },
+          {
+            "text": "Damit sie immer ein positives Feedback geben können.",
+            "rationale": "Resilienz ist eine Eigenschaft, die dem PM hilft, mit Rückschlägen umzugehen, während Feedback ein separates Thema ist."
+          }
+        ],
+        "correct_answer": "Weil Rückschläge und ständige Veränderungen im Produktmanagement unvermeidlich sind."
+      },
+      {
+        "question": "Nach welchem Prinzip sollte das Feedback laut dem Text idealerweise gegeben werden?",
+        "options": [
+          {
+            "text": "Die 4 A's: Absolut, Abstrakt, Anklagend, Auffordernd",
+            "rationale": "Die 4 A's werden nicht erwähnt, stattdessen wird das '4 W's' Prinzip als Grundlage für gutes Feedback genannt."
+          },
+          {
+            "text": "Die 4 W's: Wertschätzung, Wahrnehmung, Wirkung, Wunsch",
+            "rationale": "Dies ist die explizite Vorgehensweise, die im Text für konstruktives Feedback beschrieben wird."
+          },
+          {
+            "text": "Zuerst die negative Kritik, dann das Lob",
+            "rationale": "Das 4 W's-Prinzip beginnt mit 'Wertschätzung', um eine positive, unterstützende Haltung zu schaffen."
+          }
+        ],
+        "correct_answer": "Die 4 W's: Wertschätzung, Wahrnehmung, Wirkung, Wunsch"
+      },
+      {
+        "question": "Was ist der Zweck eines 'Icebreakers' zu Beginn eines Meetings?",
+        "options": [
+          {
+            "text": "Die Agenda in allen Details zu besprechen.",
+            "rationale": "Der Icebreaker dient dazu, die Atmosphäre aufzulockern und die Interaktion zu fördern, nicht die Agenda zu besprechen."
+          },
+          {
+            "text": "Eine positive und offene Atmosphäre für die Zusammenarbeit zu schaffen.",
+            "rationale": "Der Text listet die Schaffung einer 'positiven Stimmung' und 'aktiven Teilnahme' als Hauptziele von Icebreakern."
+          },
+          {
+            "text": "Die Teilnehmer sofort mit der Arbeit beginnen zu lassen.",
+            "rationale": "Der Zweck eines Icebreakers ist es, die Stimmung aufzulockern, bevor die eigentliche Arbeit beginnt."
+          }
+        ],
+        "correct_answer": "Eine positive und offene Atmosphäre für die Zusammenarbeit zu schaffen."
+      },
+      {
+        "question": "Welche der folgenden Aussagen ist eine 'Best Practice' für die Vorbereitung von Meetings?",
+        "options": [
+          {
+            "text": "Die Agenda erst am Meeting-Tag verschicken.",
+            "rationale": "Der Text empfiehlt, die Agenda und Materialien 'vorab' zu teilen, um eine bessere Vorbereitung zu ermöglichen."
+          },
+          {
+            "text": "Keine feste Agenda haben, um flexibel zu bleiben.",
+            "rationale": "Der Text rät dazu, eine Agenda zu erstellen und nur bei Bedarf flexibel anzupassen."
+          },
+          {
+            "text": "Die eigene Rolle klären und eine Agenda erstellen.",
+            "rationale": "Diese beiden Punkte sind die explizit genannten Best Practices für die Vorbereitung eines Meetings."
+          }
+        ],
+        "correct_answer": "Die eigene Rolle klären und eine Agenda erstellen."
+      },
+      {
+        "question": "Warum ist es laut dem Text wichtig, Partnerschaften mit dem Analytics-Team zu pflegen?",
+        "options": [
+          {
+            "text": "Um die Verantwortung für Entscheidungen auf das Analytics-Team zu verschieben.",
+            "rationale": "Die Pflege der Partnerschaft dient der besseren Entscheidungsfindung, nicht der Verantwortungsverschiebung."
+          },
+          {
+            "text": "Um eine angemessene Entscheidungsgrundlage zu schaffen und Biases zu erkennen.",
+            "rationale": "Der Text verknüpft die Pflege von Partnerschaften mit Analytics direkt mit der Schaffung von Entscheidungsgrundlagen und der Bewusstheit von Biases."
+          },
+          {
+            "text": "Um das Team zu kontrollieren und seine Arbeit zu überwachen.",
+            "rationale": "Die Zusammenarbeit zielt auf die Entscheidungsqualität ab, nicht auf die Überwachung der Teammitglieder."
+          }
+        ],
+        "correct_answer": "Um eine angemessene Entscheidungsgrundlage zu schaffen und Biases zu erkennen."
+      },
+      {
+        "question": "Was ist ein 'Debrief'?",
+        "options": [
+          {
+            "text": "Ein kurzes, informelles Gespräch vor einem Meeting.",
+            "rationale": "Ein Debrief findet nach einem Ereignis statt und ist oft strukturiert, nicht informell vor einem Meeting."
+          },
+          {
+            "text": "Ein Dokument mit ToDos, Erwartungen und einer Zusammenfassung der wichtigsten Erkenntnisse nach einem Meeting.",
+            "rationale": "Der Text beschreibt das Debrief als ein strukturiertes Dokument, das nach einem Meeting erstellt wird, um Ergebnisse und Aufgaben festzuhalten."
+          },
+          {
+            "text": "Eine Liste aller Teilnehmer und ihrer Rollen in einem Meeting.",
+            "rationale": "Die Rollen werden in der Vorbereitung geklärt, aber ein Debrief fasst die Ergebnisse und nächsten Schritte zusammen."
+          }
+        ],
+        "correct_answer": "Ein Dokument mit ToDos, Erwartungen und einer Zusammenfassung der wichtigsten Erkenntnisse nach einem Meeting."
+      },
+      {
+        "question": "Welche Eigenschaft gehört laut dem Text zu den 'Eigenschaften resilienter PMs'?",
+        "options": [
+          {
+            "text": "Strikte Unnachgiebigkeit",
+            "rationale": "Resiliente PMs sind anpassungsfähig und flexibel, nicht strikt unnachgiebig."
+          },
+          {
+            "text": "Die Fähigkeit, Probleme zu ignorieren",
+            "rationale": "Resiliente PMs besitzen 'Problemlösungsfähigkeiten' und identifizieren Hindernisse, anstatt sie zu ignorieren."
+          },
+          {
+            "text": "Emotionale Intelligenz",
+            "rationale": "Der Text listet die 'Emotionale Intelligenz' als eine der Kerneigenschaften, um Emotionen zu erkennen und zu steuern."
+          }
+        ],
+        "correct_answer": "Emotionale Intelligenz"
+      },
+      {
+        "question": "Was ist das Grundprinzip von Feedback, wie es im Text beschrieben wird?",
+        "options": [
+          {
+            "text": "Feedback ist eine verbindliche Anweisung, die sofort umgesetzt werden muss.",
+            "rationale": "Das Grundprinzip besagt, dass Feedback ein 'Geschenk' ist, das annehmbar oder ablehnbar ist, ohne Rechtfertigung."
+          },
+          {
+            "text": "Feedback ist ein Geschenk, das ohne Rechtfertigung angenommen oder abgelehnt werden kann.",
+            "rationale": "Dies ist die exakte Beschreibung des Grundprinzips von Feedback im Text."
+          },
+          {
+            "text": "Feedback sollte nur von Vorgesetzten an Mitarbeiter gegeben werden.",
+            "rationale": "Der Text beschreibt Feedback allgemein als eine offene und konstruktive Kommunikation, die in einer positiven Kultur stattfindet und nicht auf Hierarchien beschränkt ist."
+          }
+        ],
+        "correct_answer": "Feedback ist ein Geschenk, das ohne Rechtfertigung angenommen oder abgelehnt werden kann."
+      }
+    ]
+  }
