@@ -1,0 +1,425 @@
+1.4 Persönliche Effektivität & Effizienz
+Einführung Effektivität und Effizienz als PM
+Rollen in einem Produktteam
+Researcher Übernimmt die Führung in Bezug auf die einzelnen Researchaktivitäten Fokus: Problem Discovery Produktmanager Übernimmt die Führung in Bezug auf die Produktvision, Strategie und Priorisierung der Arbeit. Fokus: Problem Discovery & Business Value Designer Übernimmt die Führung in Bezug auf das Design von Lösungen, um sicherzustellen, dass das Produkt ansprechend und benutzerfreundlich ist. Fokus: Solution Discovery Entwickler Übernimmt die Führung in Bezug auf die technische Umsetzung und ist für die Entwicklung und den Test von Produktfeatures verantwortlich. Fokus: Implementation Quality Assurance (QA) Tester Stellt sicher, dass das Produkt fehlerfrei ist und den festgelegten Qualitätsstandards entspricht. Fokus: Implementation
+Effektivität vs. Effizienz
+Faktoren für persönliche Effektivität/Effizienz?
+Produktivität
+Präsentationsfähigkeit
+Kritische Argumentation
+Abstraktes Denken
+Moderation von Meetings
+Zusammenarbeit im Team
+Haltung (PM Mindset)
+Mentale Gesundheit
+Diese Themen werden im Laufe des Moduls bearbeitet.
+Was gehört zur Produktivität?
+Zeitmanagement
+Priorisierung von Aufgaben
+Wahl des Kommunikationskanals
+Nutzung von Tools & Methoden
+Zeitmanagement
+Der Alltag vieler PMs
+Wie können wir Kalender besser managen?
+Weniger Meetings vereinbaren.
+Weniger Umfang/Aufgaben pro Tag einplanen (Priorisierung).
+Ausreichend Puffer zwischen Meetings einplanen.
+Kalender zu bestimmten Zeiten für andere blockieren (Fokuszeit).
+Zeit für unvorhergesehenes einplanen.
+Spontan aufkommende Ablenkungen möglichst ignorieren. „Die Perfektion eine Uhr besteht nicht darin, möglichst schnell, sondern genau zu sein.“ Das gilt insbesondere zur Zeitplanung. Ein (Arbeits-)Tag ist zeitlich begrenzt (wie ein Fixed time Projekt). Wir steuern also die Erwartungen und (Über-)Belastung über den Umfang (variable Scope).
+Pomodoro zum Zeitmanagement
+Grundidee
+Wir konzentrieren uns 100% auf unsere Aufgabe für 25 Minuten und gönnen uns dann proaktiv eine 5-minütige Pause. Dann geht es wieder von vorne los.
+Ziele
+Motivation hochhalten
+Große Arbeitspakete in handhabbare Stücke einteilen
+Regelmäßige Belohnung
+Software
+Gratis Online Pomodoro Timer
+Pomodoro als Video erklärt
+Weitere Techniken zum Zeitmanagement
+Priorisierung deiner Aufgaben
+Die eine wichtigste Sache
+Grundidee: Maximale Form der Priorisierung. Wir brauchen eine klare Entscheidung.
+„Wenn wir nur ein Todo auf unserer Liste heute fertig machen/weiter bearbeiten könnten, was wäre das?“
+Prinzip: First things first.
+Wir lassen uns zu häufig von unwichtigeren, kleineren Dinge ablenken.
+Eisenhower Matrix
+Grundidee
+Einordnung der persönlichen Aufgaben auf Basis von nur zwei Dimensionen:
+wichtig vs. unwichtig
+dringend vs. nicht dringend
+Je nach Einordnung behandeln wir die Aufgabe unterschiedlich
+Ziel
+Aufgaben möglichst gar nicht erst wichtig und dringend werden lassen
+Den eigene Fokus auf die entscheidenden Aufgaben lenken
+Tipps zur Nutzung der Eisenhower Matrix
+Sei rigoros ehrlich: Die meisten Aufgaben, die zunächst wichtig oder dringend erscheinen, sind es auf den zweiten Blick nicht.
+Nimm dir morgens ein paar Minuten zur um deine Einordnung zu Überarbeiten.
+Verwende digitale Tools geräteübergreifend (z.B. Focus Matrix für iOS und Mac)
+Regelmäßige Reflektion
+Es gibt noch viele weitere Priorisierungsmethoden.
+Du kannst auch mehrer Methoden kombinieren oder auf deine Bedürfnisse anpassen.
+Egal, welche Priorisierungsmethode du nutzt. Der Schlüssel zu einer langfristig erfolgreichen Anwendung ist eine regelmäßige Reflektion.
+Hast du dich an die Priorität gehalten?
+Fühlt sich dein Tag erfolgreich an?
+Was möchtest du beim nächsten mal ändern?
+Kommunikationskanäle
+Die passende Art der Kommunikation
+Je nach Ziel unserer Kommunikation eignet sich einige Kommunikationskanäle weniger als andere.
+Beispiele:
+Eine komplexe Diskussion für ein neues Features zusammen mit Designern, Entwicklern und Stakeholdern.
+Die Lösung eines teaminternen Konflikts der im letzten Standup aufgekommen ist.
+Die Information über einen anstehenden Release.
+Die Absprache zu Roadmap Inhalten.
+Die Sammlung von Ideen zur Lösung eines Problems.
+Asynchrone Kommunikation für PMs
+asynchron = nicht gleichzeitig
+Meeting sind teuer. Sie binden viele Mitarbeiter gleichzeitig und werden häufig unnötig verlängert.
+Für die meisten Anliegen, sind persönliche Treffen nicht geeignet und laden zur Ineffizienz ein.
+Asynchrone motiviert uns, präzise zu kommunizieren anstatt „halb vorbereitet“ in ein Meeting zu gehen.
+Schriftlich, Audio, Video
+Tools: Loom, Slack, Telegram, Whatsapp, Miro, Notion, etc.
+Aber: Auch Videos und Audio brauchen eine gute Struktur („weniger erzählen, mehr sagen“) Optional: Artikel zu PM Kommunikation mit Loom
+Dokumentation
+Dokumentiere Dinge bzw. Informationen, die du häufiger benötigst.
+Teile die entsprechenden Seiten mit relevanten Kunden, Partnern und Kolleginnen.
+Transparenz, Professionalität
+Verlinke hier auch andere Dateien (z.B. Miro Boards)
+Beispiele
+Wichtige Entscheidungen
+Market- und User Research Daten
+Produktdokumentationen
+Retro Ergebnisse
+Notizen aus dem 1:1 mit deinem Teamlead
+Onboardinginformationen
+… Unsere Empfehlungen
+KI zur Zusammenfassung von Meetings
+Gute Meetingdokumentation ist wichtig
+Zeit sparen mit KI Tools
+Gib der KI Beispiele für gute Dokumentationen für bessere Ergebnisse.
+Aber: Du solltest nicht jedes Meeting für eine KI zugänglich machen
+Einige Teilnehmende empfinden dies als übergriffig.
+Einige Meetings sind es nicht wert, aufgezeichnet zu werden.
+Gefahr von Überdokumentation. Unsere Empfehlung
+Visualisierungen
+Nutze ein digitales Whiteboard, um alleine oder zusammen mit Kunden, Partnern und Kolleginnen, deine Gedanken visuell festzuhalten und zu präsentieren.
+In vielen Whiteboards kannst du mittlerweile auch einen Präsentationsmodus verwenden.
+Beispiele
+Retros
+Brainstorming und Ideations
+Customer Journey Dokumentieren
+Prozesse als Flowchart darstellen
+… Unsere Empfehlung
+Password Manager
+Alle deine Passwörter an einer Stelle
+Ein zentrales Masterpasswort
+Zusätzlich Face-ID oder Fingerabdruck
+Sichere Passwörter generieren
+Geräteübergreifend (Handy, Laptop, Tablet) nutzbar Unsere Empfehlung
+Smarter Browser
+Basierend auf Chromium (Googles Open-Source-Browser)
+Sidebar zum Organisieren von Lesezeichen
+automatisches Schließen offener, nicht gepinnter Tabs am Ende des Tages
+Smarte Benennung von Downloads
+Swipen zum Wechseln zwischen Accounts
+Key Board Short Cuts Unsere Empfehlung
+Video zu PM Productivity Tools
+Video Fokus verbessern
+Kommunikation
+Erfolgsfaktoren für die Kommunikation
+Klarheit und Offenheit
+Aktives Zuhören
+Respekt
+Konstruktives Feedback
+Kollaboration und Teambeteiligung
+Klare Rollen und Verantwortlichkeiten
+Passende Kommunikationstools
+Transparenz zu Miss-/Erfolgen
+Flexibilität und Anpassungsfähigkeit
+Effiziente Kommunikation - Spielräume
+Wahl des Kommunikationskanals (E-Mail, Slack, Loom, Classroom, etc.)
+Wahl des Kommunikationsformats (Text, Bild, Audio, Video)
+Struktur der Kommunikation
+Gruppierung von Inhalten
+Sortierung von Inhalten
+Wahl und Umfang der Inhalte
+Beschreibung von Erwartungen und ToDos
+Einschränkung von Antworten & Feedback
+Ist überhaupt Feedback erwünscht / zulässig?
+Bis wann muss das Feedback da sein?
+Welche Kanäle sind für Feedback erlaubt (Slido, Slack, Miro Comments, etc.)?
+Top-Down: Kommunikation
+Immer die Essenz zuerst! Das schafft Ruhe und klare Erwartungen. Gilt für alle Kommunikationsformate: Schriftlich, Mündlich, Videos, Audios. In der Regel brauchen wir keinen Spannungsbogen. Wenn wir unsere Inhalte langsam aufbauen, können unsere Zuhörer auf dem Weg in falsche Interpretationen abdriften. Dadurch werden sie unruhig. Das kann zum Beispiel dazu führen, dass wir unterbrochen werden, obwohl die Zuhörer mit dem Kern unserer Aussage übereinstimmt. Sowohl Sender als auch Empfänger sind für die Qualität der Kommunikation zuständig und verantwortlich!
+Das Kommunikationsquadrat
+Das Kommunikationsquadrat als Video
+Video Verbal, Non-verbal & Para-Verbal
+Link zum video: <iframe width="560" height="315" src="https://www.youtube.com/embed/nctBTZBbK Pc?si=WeKKNLVyS_PtDMcF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Die Kommunikation ist die Grundlage für unseren Lebensweg, beruflichen Erfolg und alle Beziehungen. Sie besteht aus drei verschiedenen Arten:
+1. Verbal (Das gesprochene Wort): Dies ist das Sprachliche, wie Wort- und Satzbau, also die reine Information, die jemand von sich gibt. Im Gespräch macht das gesprochene Wort nur etwa 10 Prozent aus.
+2. Nonverbal (Gestik und Mimik): Dies ist vielen geläufig. Es umfasst Gestik und Mimik (die etwa 50 Prozent ausmachen), sowie Körperhaltung, Kleidung, Aussehen, die Frisur, Tattoos, Schwitzen in unangenehmen Situationen und das Aussehen des Arbeitsplatzes.
+3. Paraverbal (Die Art und Weise, wie man etwas sagt): Damit sind die Emotionen gemeint, die man im Gespräch zeigt. Hierzu zählen die Stimmeigenschaft, die Stimmlage, der Tonfall ("der Ton macht die Musik"), die Lautstärke, das Tempo, der Dialekt, die Melodie oder die Aussprache. Auch Schweigen oder Sprechpausen sind Bestandteil der paraverbalen Kommunikation. Emotionen (paraverbal) machen etwa 40 Prozent eines Gesprächs aus.
+Das zentrale Prinzip der Kommunikation lautet: Emotion schlägt immer Information. Die para- und nonverbale Kommunikation ist demnach weitaus wichtiger als das, was tatsächlich gesagt wird.
+Product-Driven Communication
+Sieh dir folgende Video an. Notiere Schlüsselstrategien und -fähigkeiten für effektive Kommunikation.
+i. "The Power of Communication in Product Management"
+ii. "Eight Communication Skills You Must Master as a Product Manager"
+Video Vortrag: Product-driven Communication
+Create Link zum video: <iframe width="560" height="315" src="https://www.youtube.com/embed/N09Oi-2p WqQ?si=OFw7k33971B2j2KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Storytelling
+Storytelling als Video erklärt
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7pOQqG2z 3T0?si=sn3J3__aSx8WFzSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Elemente einer guten Story
+Protagonist Häufig ein/e Held/in, der/die im Mittelpunkt steht (nicht das Produkt) und mit dem/der wir uns identifizieren können.
+Ziel & Hindernisse Der Protagonist sollte eine klares Ziel verfolgen und dazu Herausforderungen überwinden, die unsere Botschaft transportieren.
+Spannungsbogen Der Aufbau sollte einem dramaturgischen Muster (siehe rechts) folgen.
+Emotionen Die Geschichte soll Emotionen wecken, damit sich unsere Zuhörer besser mit der Geschichte/dem Held identifizieren können.
+Video Beispiele für gutes Storytelling
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pikYm7sZ LiY?si=IuYpcwqiSpugJVEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> erklärung…
+Asynchrone Kommunikation für PMs
+Präsentationen in Slides
+Der Kontext zählt
+Es ist entscheidend für den Aufbau und das Detaillevel, für welchen Zweck deine Präsentation gedacht ist. Wenn du einen Vortrag auf einer Konferenz hältst, solltest du nur ganz wenige Slides und Inhalte auf deinen Slides darstellen. So ist die Zuhörerschaft auf dich fokussiert. Wenn du einen Research-Report über die letzten Usability-Tests erstellen möchtest, kannst du ruhigen Gewissens mehr Details unterbringen und musst weniger auf den „Look“ achten. Generell gilt auch hier: „Form follows Function“
+Tipps zum Erstellen von Slides
+Create a link to this: <iframe width="560" height="315" src="https://www.youtube.com/embed/mlMvwUCt SqY?si=uIsQg_D4PbSzkdCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Slide Templates von slidesgo.com
+Wir müssen nicht immer alles selbst bauen oder neu erfinden.
+Copy & Paste von anderen guten Quellen (z.B. www.slidesgo.com) spart uns viel wertvolle Zeit.
+Viele kostenlos Templates
+Slides erstellen mittels Textbeschreibung über das AI Feature
+Vorteile von Slide Templates
+Die Verwendung von Vorlagen (Templates) bei der Erstellung einer Präsentation bietet viele Vorteile. Hier sind einige davon:
+Zeitersparnis
+Konsistenz
+Branding
+Effizienz
+Anpassbarkeit
+Professionalität
+Lernkurve
+Fehlerreduzierung
+Richtlinien und Best Practices
+Wiederverwendbarkeit
+Inspiration: Kostenlose Tipps zu Google Slides
+Es gibt online bereits viele Ressourcen, mit denen du deine Skills beim Erstellen von Präsentationen verbessern kannst.
+Setze dich heute Nachmittag damit auseinander. Create a link to this video: <iframe width="560" height="315" src="https://www.youtube.com/embed /pAATrf3NJ88?si=hhyhre34CB6mPd1R " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cros s-origin" allowfullscreen></iframe>
+Die visuellen Basics: Ausrichten & Verteilen
+Wenn wir die visuellen Basics richtig machen, sorgen wir für weniger Störgefühle beim Zuschauer.
+Manuelles Positionieren von Elementen führt zu Ungenauigkeiten.
+Elemente sauber zu platzieren kostet nicht viel Zeit und verschafft einen professionellen Eindruck. Create al link to this video: <iframe width="560" height="315" src="https://www.youtube.com/embed/ XqKml8qrLfM?si=YyqMDyVS9p3AF74V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross -origin" allowfullscreen></iframe>
+Action Titles helfen dir, deine Story zu erzählen.
+Aktions-Titel (Action Titles) dienen als Ein-Satz-Zusammenfassungen, die es dem Betrachter ermöglichen sollen, die gesamte Folie und deren wichtigste Erkenntnisse zu verstehen. Ein Aktions-Titel soll die Frage „Na und?“ (so what?) beantworten. Er sollte so kurz und prägnant wie möglich sein und in der Regel nicht länger als zwei, vielleicht drei Zeilen. Der gewünschte Idealzustand ist, dass Ihre gesamte Präsentation verstanden werden könnte, wenn man nur die Aktions-Titel liest. Wichtige Merkmale und Beispiele:
+Zweck: Sie sollen eine gesunde Vorwegnahme (Anticipation) und ein Verständnis der gesamten Folie schaffen.
+Vergleich: Anstelle eines allgemeinen Titels wie „Marktanteile von Fun issues“ sollte ein Aktions-Titel präziser formulieren, wie zum Beispiel: „Marktanteile von funny shoes wuchsen um sechs Prozent in diesem Jahr“.
+Fortlaufende Geschichte: Ein Trick ist die Verwendung von Punkten vor und nach dem Titel, damit dieser fließend in die nächste Folie übergeht. Auf diese Weise können die Aktions-Titel kontinuierlich eine Geschichte der Präsentation erzählen.
+Inhaltliche Zusammenfassung: Aktions-Titel sollen alles, was auf der Folie dargestellt wird, in einem Satz zusammenfassen. Beispielsweise würde man statt „Weltweites Umsatzwachstum“ den Titel „Umsatz ist in den letzten fünf Jahren um 31 Prozent gewachsen, wobei Asien der stärkste Beitragende ist“ verwenden.
+Situation Complication Resolution von McKinsey
+Als PMs müssen wir häufig mit Stakeholdern über Probleme, deren Auswirkungen und empfohlene Lösungen sprechen, um sie von unseren Projektvorhaben zu überzeugen.
+SCR Ansatz
+Situation: Welche Probleme/Chancen haben wir beobachtet?
+Complication: Wie wirken sich diese Problem auf unser Business und/oder die Kunden aus?
+Resolution: Was schlagen wir vor zu tun? Was ist unsere Lösung oder unser Ansatz eine Lösung zu finden?
+Der SCR Ansatz von McKinsey bietet sich an, um die Hauptstory gleich zu Beginn einer Präsentation auf einen Blick darzustellen.
+Ähnlich zur Top-Down Kommunikation: Wir berichten zuerst zusammengefasst von unserem Ergebnis und gehen dann auf die Details ein.
+Der SCR Ansatz als Slide umgesetzt
+SCR Ansatz
+Create link video: <iframe width="560" height="315" src="https://www.youtube.com/embed/CY1Y367K Eko?si=hX1i4sSPkw-zBH6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Bilder in Präsentationen
+Bilder unterliegen in den meisten Fällen einer bestimmten Lizenz.
+Speziell von Stock Photos Sites, wie Shutterstock etc.
+Eine Lizenz kann die erlaubte Verwendung sowie Lizenzgebühren regeln.
+Es gibt Bildersuchseiten speziell für kostenlos verwendbare Bilder.
+AI generierte Bilder können dieses Problem ebenfalls umgehen.
+Kritisches Denken
+Kritisches Denken
+Create link zum video: <iframe width="560" height="315" src="https://www.youtube.com/emb ed/3pf5rk6Py08?si=yNxnuSc0Aww xw2k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cr oss-origin" allowfullscreen></iframe>
+Ziele kritischen Denkens
+komplexe Sachverhalte zügig zu erfassen,
+dabei Wesentliches von Unwesentlichem zu unterscheiden,
+Handlungsfelder in Haupt- und Unterkomplexe zu unterteilen,
+mögliche Probleme, Hindernisse und Widerstände schnell zu erkennen
+und letztlich immer auch Lösungen zu finden, um die angestrebten Ziele zu erreichen.
+Schritte beim kritischen Denken
+Ishikawas trennen Ursachen und Wirkung gezielt
+Ich werde hier eine IMG hinzufügen
+Du kannst auch eigenen Kategorien wählen
+Manchmal fällt es uns schwer, unsere identifizierte Ursachen in die Standardkategorien (Mensch, Maschine, etc.) einzuordnen.
+Wir können auch individuell gruppieren.
+ABER: Die Standardkategorien „zwingen“ uns im positiven Sinne in allen Richtungen nach Ursachen zu suchen.
+Empfehlung: Formt gerne eigene Kategorien innerhalb der Standardkategorien (Hauptursache & Nebenursache)
+Beispiel
+Abstraktes Denken
+Abstraktes Denken
+Fähigkeit, im Denkprozess die Einzelheiten wegzulassen, sie direkt zu verallgemeinern und somit zu vereinfachen
+Aufgenommene Informationen werden auf das Wesentliche reduziert, sodass sie für eine Entscheidung verarbeitet werden können
+Das ist die Voraussetzung für uns, um Muster zu erkennen.
+Begriffe, die mit Abstraktion verbunden sind
+Muster
+Frameworks
+Model
+Methode
+Annahme
+Regel
+Fallen euch noch weitere ein?
+Assessment Center
+Strukturiertes Auswahlverfahren, das Unternehmen und Organisationen für interne und externe Bewerber einsetzen, um die am besten geeigneten Personen zu identifizieren
+Kombination unterschiedlicher Verfahren und Übungen (Gruppendiskussionen, Rollenspiele, Fallstudien, Tests, Fragebögen, etc.)
+In Assessment Centern werden häufig Aufgaben zum kritischen & abstrakten Denken gestellt. Die Aufgaben dazu sind i.d.R. unabhängig vom Fachgebiet.
+Zusammenarbeit im Team
+Was sind kollaborative Teams?
+Kollaborative Teams sind Gruppen von Individuen, die gemeinsam an einem Ziel arbeiten und durch offene Kommunikation, gegenseitiges Vertrauen und klaren geteilte Verantwortlichkeiten gekennzeichnet sind.
+In einem produktiven kollaborative Team wird die kollektive Intelligenz des Teams genutzt, um innovative Lösungen zu finden und Herausforderungen zu meistern.
+Asynchrone vs. synchrone Zusammenarbeit
+Zusammenarbeit vor Ort vs. remote
+Bedeutung der Zusammenarbeit im Produktmanagement
+Vorteile der Zusammenarbeit: ✔ Innovationsförderung ✔ Wissensaustausch ✔ Motivation und Engagement ✔ Effizienzsteigerung Was brauchen wir dazu:
+Messbarkeit (Performance + Feedback)
+Werkzeuge (Kommunikationstools + Projektmanagement-Software)
+Best Practices Regelmäßige Team-Meetings + Klare Kommunikation + Klare Aufgaben
+Bedeutung der Zusammenarbeit im Produktmanagement
+Kommunikation und Tools für Produktteams
+Gute Kommunikation ist ein hartes Stück Arbeit. Auch an sich selbst.
+Best Practices für Produktteams
+Klare Kommunikationsrichtlinien Etablierung klarer Kommunikationsrichtlinien und -kanäle, um Missverständnisse zu vermeiden und die Effizienz zu steigern. Regelmäßige Meetings Halten von regelmäßigen Stand-up-Meetings, Retrospektiven und Review-Sessions, um den Fortschritt zu überwachen und Feedback zu sammeln. Offene Feedback-Kultur Förderung einer Kultur, in der Teammitglieder ermutigt werden, konstruktives Feedback zu geben und zu empfangen.
+Problem- und Konfliktlösung in Produktteams
+Probleme und Konflikte sind unvermeidlich
+Problembehandlung und Konfliktlösung in Produktteams
+Häufige Probleme in Produktteams
+Kommunikationsbarrieren Missverständnisse oder Mangel an klaren Informationen, die die Zusammenarbeit behindern.
+Konflikte zwischen Teammitgliedern Differenzen in Meinungen, Ansichten oder Ansätzen, die zu Reibungen führen.
+Unklare Rollen und Verantwortlichkeiten Wenn Teammitglieder nicht klar über ihre Rollen und Aufgaben informiert sind.
+Zeitmanagement und Deadlines Herausforderungen im Umgang mit Zeitdruck und Einhaltung von Fristen. Strategien zur Konfliktlösung Aufrechterhaltung einer positiven Teamdynamik
+Problembehandlung und Konfliktlösung in Produktteams
+Häufige Probleme in Produktteams
+Offene Kommunikation Förderung eines offenen Dialogs, um Probleme und Konflikte frühzeitig zu identifizieren und anzusprechen.
+Konfliktmediation Einsatz von Mediationstechniken, um Konflikte fair und konstruktiv zu lösen. Strategien zur Konfliktlösung
+Team-Building-Aktivitäten Durchführung von Team-Building-Übungen, um das Vertrauen und die Zusammenarbeit im Team zu stärken. Aufrechterhaltung einer positiven Teamdynamik
+Problembehandlung und Konfliktlösung in Produktteams
+Häufige Probleme in Produktteams
+Regelmäßiges Feedback Einführung eines Systems für regelmäßiges Feedback, um die Performance zu überwachen und Bereiche für Verbesserungen zu identifizieren. Strategien zur Konfliktlösung
+Anerkennung und Belohnung Anerkennung der Leistungen der Teammitglieder und Belohnung für hervorragende Zusammenarbeit und Ergebnisse. Aufrechterhaltung einer positiven Teamdynamik
+Kontinuierliche Verbesserung Förderung einer Kultur der kontinuierlichen Verbesserung, um die Teamdynamik und die Zusammenarbeit ständig zu optimieren.
+Meetings moderieren
+Gut Moderieren heißt Begleiten
+Sei dir deiner Rolle im Meeting bewusst und stelle sicher, dass auch die anderen Teilnehmer ihre Rolle kennen.
+In vielen Meetings musst du nicht unbedingt selbst entscheiden. Es ist sogar besser, wenn du anderen dabei hilfst, zusammen eine gute Entscheidung zu treffen. Das fällt dir leichter, je weniger es dir „unter den Nägeln brennt“, deine Meinung zu einem Thema zu äußern.
+Falls du also mit großer Wahrscheinlichkeit eine stark polarisierende Meinung im Meeting einnehmen willst, ziehe am besten einen externen Moderator hinzu (z.B. aus einer uninvolvierten Abteilung oder einen Scrum Master).
+Meetings sind teuer und müssen effizient sein
+Daumenregel: Vorbereitung 40%, Meeting 20%, Nachbereitung 40%.
+Mache dir das Ziel des Meetings bewusst.
+Erstelle immer eine konkrete Agenda.
+Kommuniziere vorab Agenda und Materialien inkl. des Auftrags diese vorzubereiten.
+Wähle sorgfältig dein Methoden für die Moderation aus (Brainstorming, Brainwriting, offene Diskussion, etc.)
+Optional: Tipps für produktive Meetings
+Create link zum video: <iframe width="560" height="315" src="https://www.youtube.com/embed/mPXVF4s gxAw?si=aRObh1WETlogKw6x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Zeitmanagement im Meeting
+Nutze Timer und sei konsequent.
+Plane Puffer ein für soziale Interaktion (vor allem zu Beginn).
+Sei flexible: Hab Mut die Agenda spontan mit der Gruppe anzupassen, falls es die Situation erfordert.
+Meeting Debriefs
+Als PM sollten wir die Ergebnisse von wichtigen Meetings festhalten.
+Leser des Debriefs müssen innerhalb weniger Augenblicke entscheiden können, wie relevant die Nachricht im Detail für sie ist.
+Fehlende Teilnehmer können schnell die wichtigstens Erkenntnisse aufholen.
+Stakeholder erfahren die wichtigen Erkenntnisse und Entscheidungen.
+Wir brauchen eine klare Kommunikation der Erwartungshaltungen an die Empfänger.
+Elemente
+Aussagekräftiger Betreff
+To Dos / Erwartungen an die Leser (Wer, Was, bis Wann, über welchen Kanal)
+Zusammenfassung der wichtigstens Erkenntnisse
+evtl. Bitte um Ergänzung/Korrektur
+Icebreaker
+Was sind Icebreaker?
+Wozu verwenden wir Icebreaker in Meetings?
+Positive Stimmung
+Kreativität
+Aktive Teilnahme
+Aufbau von Vertrauen
+Beziehungen zwischen Teammitgliedern stärken
+Neue Mitglieder einbringen
+Ownership
+Ownership – ein essentieller PM Skill
+Jeder Tag eines PMs läuft anders. Niemand kann uns sagen, was wir genau machen. PMs müssen Verantwortung übernehmen und sich proaktiv neuen Herausforderungen stellen.
+Wir arbeiten immer in Teams mit Experten – also müssen wir auch klar Verantwortlichkeiten und Rollen verteilen.
+Wir sind für den Erfolg & den Misserfolg unseres Produkts / unseres Produktbereichs verantwortlich. Dieser Handlungsspielraum ist ein Geschenk. Wir müssen vorbildlich damit umgehen.
+Der Circle of Influence (CoI)
+https://www.youtube.com/watch?v=oCi8wrEQL8k A B C
+Warum ist der CoI für PMs so wichtig?
+Gerade als PM prasseln täglich Unmengen von Herausforderungen auf uns ein. Wir dürfen keine Energie mit Dingen verschwenden, die wir nicht gut beeinflussen können.
+Wir sollten sogar anderen dabei helfen, proaktiv zu handeln anstatt sich in Schuldzuweisungen zu verlieren.
+„Ich kann Dinge direkt positiv beeinflussen.“ statt „Ich bin das Opfer.“
+Wenn wir es schaffen, Sorgen über Dinge „wegzuschieben“, die wir nicht oder nur schwer beeinflussen können, können wir mit mehr Elan und Freude die Dinge anfassen, die wir uns weiter nach vorne bringen.
+Verantwortung gegenüber unseren Kunden
+Stelle sicher, dass ihr (dein Team und du) die Absichten, Bedürfnisse & Herausforderungen eurer Kunden versteht.
+Das Verständnis der Kunden bildet die Grundlage für Entscheidungen.
+Ein gutes Kundenverständnis erfordert Aufwand (Investment in Research).
+Beschäftige dich regelmäßig selbst mit deinen Kunden (Continuous Discovery Habits)
+Pflege gute Beziehungen zu UX Research Teams.
+Motiviere andere Teams kundenorientiert zu entscheiden.
+Verantwortung für gute Entscheidungen
+Stelle eine angemessene Entscheidungsgrundlage sicher – je nach Wichtigkeit und Risiko einer Entscheidung.
+Sei dir der kognitiven Verzerrungen (Biases) bewusst – sowohl deiner eigenen als auch deiner Stakeholder.
+Pflege gute Beziehungen zur Business Intelligence / Analyse Abteilung.
+Resilienz
+Was ist Resilienz?
+„Resilienz ist die Fähigkeit, sich an Veränderungen anzupassen, Krisen zu bewältigen und gestärkt aus Herausforderungen hervorzugehen."
+Why worry?
+Begrüße Veränderungen.
+Du wächst mit jeder gemeisterten Herausforderung.
+Veränderungen im Markt bietet immer neue Chancen für erfolgreiche Produkte.
+Bleib gelassen – auch, wenn dein Plan nicht aufgeht.
+Sichere deine Wettbewerbsfähigkeit. Ruhe dich niemals auf den Erfolgen deines Produkts aus.
+Bleibe fokussiert.
+Fokus ist wichtig, um produktiv zu sein – für dich und dein Team.
+Passe die Prioritäten regelmäßig deinen Erkenntnissen zur Situation an.
+Hilf anderen eine Entscheidung zu treffen, auch wenn es schwer fällt.
+Entwickle nachvollziehbare Kriterien, um über deine Prioritäten zu entscheiden.
+Mache die Prioritäten transparent.
+Warum ist Resilienz für PMs wichtig?
+Bewältigung von Rückschlägen Im Produktmanagement sind Rückschläge und Herausforderungen unvermeidlich. Produktmanager müssen in der Lage sein, mit Misserfolgen und Enttäuschungen umzugehen, ohne die Motivation zu verlieren.
+Flexibles Anpassen an sich ändernde Anforderungen Der Markt und die Kundenanforderungen ändern sich ständig. Produktmanager müssen in der Lage sein, flexibel auf Veränderungen zu reagieren und ihre Pläne anzupassen, ohne sich zu verlieren.
+Erhaltung der mentalen und emotionalen Gesundheit Der Druck und die Verantwortung im Produktmanagement können zu Stress und Burnout führen. Resilienz hilft, die mentale und emotionale Gesundheit zu schützen und ein gesundes Arbeitsumfeld aufrechtzuerhalten.
+Wettbewerbsvorteil Resiliente Produktmanager sind besser in der Lage, sich von Wettbewerbern abzuheben. Sie können schneller auf Marktveränderungen reagieren und Produkte effektiver weiterentwickeln.
+Eigenschaften resilienter Produktmanager
+Emotionale Intelligenz PMs müssen in der Lage sein, ihre eigenen Emotionen zu erkennen und zu steuern, was ihnen hilft, in stressigen Situationen ruhig zu bleiben und konstruktive Lösungen zu finden.
+Problemlösungsfähigkeiten Resiliente PMs sind starke Problemlöser. Sie können Hindernisse und Herausforderungen identifizieren und kreative Lösungen entwickeln, um diese zu überwinden.
+Anpassungsfähigkeit Anpassungsfähigkeit ist eine Schlüsselkomponente der Resilienz. Resiliente Produktmanager sind flexibel und können sich schnell an veränderte Umstände und Anforderungen anpassen.
+Positives Denken Resiliente PMs haben eine positive Denkweise. Sie sehen in Problemen Chancen und sind motiviert, trotz Rückschlägen weiterzumachen.
+Wie kann man Resilienz entwickeln?
+Selbstfürsorge und Stressbewältigung
+Lernen aus Fehlern und Misserfolgen, aber auch Erfolgen
+Mentoring und Unterstützung im Team
+Zielsetzung und Fortschrittsverfolgung
+Feedback
+Feedback
+Selbstreflektion – ein essentieller PM Skill
+Bessere Entscheidungsfindung
+Persönliche Entwicklung
+Verbesserte Kommunikation
+Effektivere Konfliktlösung
+Kundenorientierung
+Stress-management
+Kontinuierliche Verbesserung
+Anderen richtig Feedback geben
+Ziele
+Verbesserung der Leistung
+Förderung von Verständnis
+Förderung einer positiven Arbeitskultur
+Steigerung der Produktqualität
+Förderung der persönlichen und beruflichen Entwicklung
+Die 4 Ws für gutes Feedback
+0 Möglichkeit
+Kann ich im entsprechenden Moment Feedback geben? Betrachte die Situation von dir und der Person der du Feedback geben möchtest und überlege ob gerade der rechte Zeitpunkt ist. Vermeide Feedback wenn die Person aufgewühlt, in einer großen Gruppe ist oder anderweitig unter Stress steht. In vielen Fällen hilft es auch einfach nachzufragen ob Feedback erwünscht ist.
+1 Wertschätzung
+Die 4 Ws für gutes Feedback
+Wir wollen Feedback aus einer positiven und unterstützenden Haltung heraus geben. Es ist wichtig, dass der Feedbackgeber das Wohl des Empfängers im Auge behält und konstruktive Kritik auf eine respektvolle Weise formuliert. Zu Anfang lohnt sich der Einstieg mit einer wertschätzenden Formulierung
+2 Wahrnehmung
+Die 4 Ws für gutes Feedback
+Im nächsten Schritt beschreibst du, was du in der Situation, zu der du Feedback geben möchtest, wahrgenommen hast. Nutze deine 5 Sinne und bleibe bei dir! Was hast du gehört, gesehen und gefühlt. Vermeide Interpretationen, Wertungen und „Du bist“‐Botschaften. Sie führen typischerweise dazu, dass der andere sich damit unwohl fühlt und dein Feedback dadurch keine Chance mehr hat, gehört zu werden.
+3 Wirkung
+Die 4 Ws für gutes Feedback
+Wirkung bezieht sich darauf, wie das beobachtete Verhalten auf Dich als Feedback-Geber gewirkt hat. Feedback sollte darauf abzielen, positive Veränderungen in der Arbeitsweise oder im Verhalten des Empfängers zu bewirken.
+4 Wunsch
+Die 4 Ws für gutes Feedback
+Der „Wunsch“ bezieht sich darauf, welche Veränderungen oder Verbesserungen der Feedbackgeber sich vom Empfänger wünscht. Es ist wichtig, dass diese Erwartungen klar und realistisch kommuniziert werden.
+Feedback ist ein Geschenk. Man darf es annehmen aber auch ablehnen – ohne sich rechtfertigen zu müssen.
+Feedback ist ein Geschenk
+

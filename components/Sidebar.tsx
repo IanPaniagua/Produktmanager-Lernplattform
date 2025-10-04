@@ -61,7 +61,10 @@ export default function Sidebar({
                         <button
                           onClick={() => {
                             onSelectModule(subModule.id);
-                            if (selectedModuleId === subModule.id && subModule.content === "design-thinking") {
+                            if (
+                              selectedModuleId === subModule.id &&
+                              (subModule.content === "design-thinking" || subModule.content === "effektivitaet")
+                            ) {
                               setShowSubNav(!showSubNav);
                             } else {
                               setShowSubNav(true);
@@ -80,7 +83,7 @@ export default function Sidebar({
                             <FileText className="h-4 w-4" />
                             <span>{subModule.title}</span>
                           </div>
-                          {subModule.content === "design-thinking" && selectedModuleId === subModule.id && (
+                          {(subModule.content === "design-thinking" || subModule.content === "effektivitaet") && selectedModuleId === subModule.id && (
                             <ChevronDown className={`h-4 w-4 shrink-0 transition-transform duration-200 ${showSubNav ? 'rotate-180' : ''}`} />
                           )}
                         </button>
@@ -108,6 +111,24 @@ export default function Sidebar({
                             <a href="#key-takeaways" className="block text-xs text-gray-600 hover:text-primary-end">
                               Key Takeaways
                             </a>
+                          </nav>
+                        )}
+                        {selectedModuleId === subModule.id && subModule.content === "effektivitaet" && showSubNav && (
+                          <nav className="ml-7 mt-1 mb-2 border-l border-gray-200 pl-3 space-y-1">
+                            <a href="#einfuhrung" className="block text-xs text-gray-600 hover:text-primary-end">Einführung</a>
+                            <a href="#zeitmanagement" className="block text-xs text-gray-600 hover:text-primary-end">Zeitmanagement</a>
+                            <a href="#priorisierung" className="block text-xs text-gray-600 hover:text-primary-end">Priorisierung</a>
+                            <a href="#kommunikation" className="block text-xs text-gray-600 hover:text-primary-end">Kommunikation</a>
+                            <a href="#storytelling" className="block text-xs text-gray-600 hover:text-primary-end">Storytelling</a>
+                            <a href="#prasentationen" className="block text-xs text-gray-600 hover:text-primary-end">Präsentationen</a>
+                            <a href="#kritisches-denken" className="block text-xs text-gray-600 hover:text-primary-end">Kritisches Denken</a>
+                            <a href="#abstraktes-denken" className="block text-xs text-gray-600 hover:text-primary-end">Abstraktes Denken</a>
+                            <a href="#zusammenarbeit" className="block text-xs text-gray-600 hover:text-primary-end">Zusammenarbeit</a>
+                            <a href="#meetings" className="block text-xs text-gray-600 hover:text-primary-end">Meetings moderieren</a>
+                            <a href="#icebreaker" className="block text-xs text-gray-600 hover:text-primary-end">Icebreaker</a>
+                            <a href="#ownership" className="block text-xs text-gray-600 hover:text-primary-end">Ownership</a>
+                            <a href="#resilienz" className="block text-xs text-gray-600 hover:text-primary-end">Resilienz</a>
+                            <a href="#feedback" className="block text-xs text-gray-600 hover:text-primary-end">Feedback</a>
                           </nav>
                         )}
                       </div>

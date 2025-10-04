@@ -3,6 +3,7 @@
 import React from "react";
 import { modules } from "@/lib/modules";
 import { DesignThinkingContent } from "@/lib/content/design-thinking";
+import { EffektivitaetContent } from "@/lib/content/effektivitaet";
 import Image from "next/image";
 
 interface ContentAreaProps {
@@ -44,6 +45,8 @@ export default function ContentArea({ selectedModuleId }: ContentAreaProps) {
     }
 
     switch (contentId) {
+      case "effektivitaet":
+        return <EffektivitaetContent />;
       case "design-thinking":
         return <DesignThinkingContent />;
       default:

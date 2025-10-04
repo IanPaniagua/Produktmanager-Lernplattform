@@ -19,6 +19,11 @@ export const modules: Module[] = [
     description: "Grundlagen des Produktmanagements im IT-Bereich",
     subModules: [
       {
+        id: "modul-1-effektivitaet",
+        title: "1.4 Persönliche Effektivität & Effizienz",
+        content: "effektivitaet",
+      },
+      {
         id: "modul-1-design-thinking",
         title: "1.5 Design Thinking",
         content: "design-thinking",

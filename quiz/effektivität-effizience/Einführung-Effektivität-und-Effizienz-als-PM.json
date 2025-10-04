@@ -1,0 +1,166 @@
+{
+    "questions": [
+      {
+        "question": "Welche der folgenden persönlichen Fähigkeiten wird im Submodul als wichtig für Produktmanager im Alltag genannt, um effektiv und effizient zu arbeiten?",
+        "options": [
+          {
+            "text": "Buchhaltung",
+            "rationale": "Buchhaltung ist keine der im Text genannten persönlichen Fähigkeiten für Produktmanager, die für ihre tägliche Arbeit relevant sind."
+          },
+          {
+            "text": "Resilienz",
+            "rationale": "Resilienz (Widerstandsfähigkeit) ist eine der im Text explizit aufgeführten persönlichen Fähigkeiten, die ein Produktmanager benötigt."
+          },
+          {
+            "text": "Technische Wartung",
+            "rationale": "Technische Wartung fällt in der Regel in den Aufgabenbereich von Entwicklern oder IT-Spezialisten, nicht von Produktmanagern."
+          }
+        ],
+        "correct_answer": "Resilienz"
+      },
+      {
+        "question": "Was ist der Hauptfokus des 'Researchers' in einem Produktteam?",
+        "options": [
+          {
+            "text": "Technische Umsetzung",
+            "rationale": "Die technische Umsetzung ist der Fokus des Entwicklers."
+          },
+          {
+            "text": "Problem Discovery",
+            "rationale": "Laut dem bereitgestellten Text ist der primäre Fokus des Researchers das 'Problem Discovery'."
+          },
+          {
+            "text": "Lösungsgestaltung und UX",
+            "rationale": "Die Lösungsgestaltung und UX sind die Hauptaufgaben des Designers."
+          }
+        ],
+        "correct_answer": "Problem Discovery"
+      },
+      {
+        "question": "Welche Rolle in einem Produktteam hat den Fokus 'Implementation'?",
+        "options": [
+          {
+            "text": "QA Tester",
+            "rationale": "Sowohl der Entwickler als auch der QA Tester sind in der 'Implementation'-Phase tätig, um die Umsetzung und Qualität sicherzustellen."
+          },
+          {
+            "text": "Produktmanager",
+            "rationale": "Der Fokus des Produktmanagers liegt auf 'Problem Discovery & Business Value'."
+          },
+          {
+            "text": "Designer",
+            "rationale": "Der Designer fokussiert sich auf 'Solution Discovery', die Phase, in der Lösungen entworfen werden."
+          }
+        ],
+        "correct_answer": "QA Tester"
+      },
+      {
+        "question": "Was beschreibt der Begriff 'Effektivität' am besten?",
+        "options": [
+          {
+            "text": "Ressourcen optimal einsetzen",
+            "rationale": "Die optimale Nutzung von Ressourcen ist eine Beschreibung von Effizienz, nicht von Effektivität."
+          },
+          {
+            "text": "Die Dinge richtig zu tun",
+            "rationale": "Die Formulierung 'die Dinge richtig zu tun' ist eine klassische Definition von Effizienz."
+          },
+          {
+            "text": "Die richtigen Dinge zu tun",
+            "rationale": "Effektivität bedeutet, die richtigen Prioritäten zu setzen und die Ziele zu erreichen, also 'die richtigen Dinge zu tun'."
+          }
+        ],
+        "correct_answer": "Die richtigen Dinge zu tun"
+      },
+      {
+        "question": "Wie wird 'Effizienz' im Kontext des bereitgestellten Texts definiert?",
+        "options": [
+          {
+            "text": "Wert für Kunden schaffen",
+            "rationale": "Das Schaffen von Wert für Kunden ist eine Zielsetzung der Effektivität."
+          },
+          {
+            "text": "Die Dinge richtig zu tun",
+            "rationale": "Effizienz bezieht sich darauf, Prozesse und Ressourcen optimal zu nutzen, was als 'die Dinge richtig zu tun' zusammengefasst wird."
+          },
+          {
+            "text": "Zielerreichung im Fokus",
+            "rationale": "Die Zielerreichung steht im Fokus der Effektivität."
+          }
+        ],
+        "correct_answer": "Die Dinge richtig zu tun"
+      },
+      {
+        "question": "Warum sind Effektivität und Effizienz für einen Produktmanager beide entscheidend?",
+        "options": [
+          {
+            "text": "Effektivität ist wichtiger, da die Umsetzung von Features zweitrangig ist.",
+            "rationale": "Der Text betont, dass beide Aspekte entscheidend sind und zusammenarbeiten müssen, nicht, dass einer wichtiger ist als der andere."
+          },
+          {
+            "text": "Ein effektiver PM wählt die wichtigsten Features, ein effizienter setzt sie ressourcensparend um.",
+            "rationale": "Der Text erklärt, dass ein effektiver PM die Prioritäten setzt und ein effizienter PM diese ressourcensparend umsetzt, was die Synergie beider Aspekte verdeutlicht."
+          },
+          {
+            "text": "Effizienz ist wichtiger, da die Kostenkontrolle die höchste Priorität hat.",
+            "rationale": "Der Text stellt Effizienz nicht über Effektivität, sondern betont die Notwendigkeit, beides zu kombinieren, um Erfolg zu haben."
+          }
+        ],
+        "correct_answer": "Ein effektiver PM wählt die wichtigsten Features, ein effizienter setzt sie ressourcensparend um."
+      },
+      {
+        "question": "Welche Aussage beschreibt die Rolle eines 'Designers' im Produktteam am besten?",
+        "options": [
+          {
+            "text": "Verantwortlich für die Vision und Strategie",
+            "rationale": "Die Vision und Strategie ist die Aufgabe des Produktmanagers."
+          },
+          {
+            "text": "Fokus auf die Lösungsgestaltung und UX",
+            "rationale": "Der Text besagt eindeutig, dass der Designer sich auf 'Lösungsgestaltung und UX' konzentriert."
+          },
+          {
+            "text": "Führt Research-Aktivitäten",
+            "rationale": "Die Durchführung von Research-Aktivitäten ist die Aufgabe des Researchers."
+          }
+        ],
+        "correct_answer": "Fokus auf die Lösungsgestaltung und UX"
+      },
+      {
+        "question": "Welcher Fokusbereich ist dem 'Produktmanager' zugewiesen?",
+        "options": [
+          {
+            "text": "Solution Discovery",
+            "rationale": "Solution Discovery ist der Fokusbereich des Designers."
+          },
+          {
+            "text": "Problem Discovery & Business Value",
+            "rationale": "Laut dem Text liegt der Fokus des Produktmanagers sowohl auf der Problemfindung als auch auf dem geschäftlichen Wert."
+          },
+          {
+            "text": "Implementation",
+            "rationale": "Implementation ist der Fokus von Entwicklern und QA Testern."
+          }
+        ],
+        "correct_answer": "Problem Discovery & Business Value"
+      },
+      {
+        "question": "Welcher Hauptfokus hat der 'Entwickler' in einem Produktteam?",
+        "options": [
+          {
+            "text": "Problem Discovery",
+            "rationale": "Problem Discovery ist der Fokus des Researchers und des Produktmanagers."
+          },
+          {
+            "text": "Lösungsgestaltung und UX",
+            "rationale": "Lösungsgestaltung und UX ist der Fokus des Designers."
+          },
+          {
+            "text": "Implementation",
+            "rationale": "Der Entwickler ist verantwortlich für die technische Umsetzung und Tests, was unter den Hauptfokus 'Implementation' fällt."
+          }
+        ],
+        "correct_answer": "Implementation"
+      }
+    ]
+  }

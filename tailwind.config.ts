@@ -29,9 +29,15 @@ const config: Config = {
           start: "#60efff",
           end: "#0061ff",
         },
+        tertiary: {
+          DEFAULT: "hsl(var(--tertiary))",
+          foreground: "hsl(var(--tertiary-foreground))",
+          // Slight turquoise gradient stops
+          start: "#7ff6ff",
+          end: "#2ddfff",
+        },
         correct: {
           start: "#82f4b1",
-          end: "#30c67c",
         },
         wrong: {
           start: "#f28367",
@@ -61,6 +67,8 @@ const config: Config = {
       backgroundImage: {
         "gradient-primary": "linear-gradient(135deg, #d397fa 0%, #8364e8 100%)",
         "gradient-secondary": "linear-gradient(135deg, #0061ff 0%, #60efff 100%)",
+        // Tertiary: slight turquoise gradient
+        "gradient-tertiary": "linear-gradient(135deg, #7ff6ff 0%, #2ddfff 100%)",
         "gradient-correct": "linear-gradient(135deg, #82f4b1 0%, #30c67c 100%)",
         "gradient-wrong": "linear-gradient(135deg, #f28367 0%, #ff5282 100%)",
       },
