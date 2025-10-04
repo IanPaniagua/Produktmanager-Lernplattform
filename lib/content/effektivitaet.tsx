@@ -1,44 +1,13 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import VideoModal from "@/components/VideoModal";
-import Quiz from "@/components/Quiz";
-import introQuizRaw from "@/quiz/effektivität-effizience/Einführung-Effektivität-und-Effizienz-als-PM.json" assert { type: "json" };
-
-type IntroQuizJson = {
-  questions: Array<{
-    question: string;
-    options: Array<{ text: string; rationale?: string }>;
-    correct_answer: string;
-  }>;
-};
 
 export const EffektivitaetContent = () => {
   const [showVerbalVideo, setShowVerbalVideo] = useState(false);
   const [showSlidesVideo, setShowSlidesVideo] = useState(false);
   const [showGoogleSlidesVideo, setShowGoogleSlidesVideo] = useState(false);
   const [showScrVideo, setShowScrVideo] = useState(false);
-
-  // Map JSON structure to Quiz component props
-  const introQuizQuestions = useMemo(() => {
-    const data = introQuizRaw as unknown as IntroQuizJson;
-    return data.questions.map((q) => {
-      const optionTexts = q.options.map((o) => o.text);
-      const correctIndex = optionTexts.findIndex(
-        (t) => t.trim() === q.correct_answer.trim()
-      );
-      return {
-        question: q.question,
-        options: optionTexts,
-        correctAnswer: Math.max(0, correctIndex),
-        // Show the rationale of the correct option as explanation
-        explanation:
-          correctIndex >= 0 && q.options[correctIndex]?.rationale
-            ? q.options[correctIndex].rationale
-            : undefined,
-      };
-    });
-  }, []);
 
   return (
     <>
@@ -52,7 +21,6 @@ export const EffektivitaetContent = () => {
           </p>
         </div>
 
-
         {/* Rollen im Produktteam */}
         <h3 className="text-xl font-semibold bg-gradient-secondary bg-clip-text text-transparent mb-3">Rollen in einem Produktteam</h3>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -62,6 +30,8 @@ export const EffektivitaetContent = () => {
               <h4 className="font-semibold text-gray-900">Researcher</h4>
               <span className="text-2xl" aria-hidden>🔎</span>
             </div>
+
+          
             <p className="text-sm text-gray-700">Führt Research-Aktivitäten.</p>
             <div className="mt-3">
               <span className="inline-flex items-center text-xs font-medium px-2.5 py-1 rounded-full bg-gray-100 text-gray-700 border border-gray-200">
@@ -125,6 +95,8 @@ export const EffektivitaetContent = () => {
               </span>
             </div>
           </div>
+
+          
         </div>
       </section>
 
@@ -252,13 +224,6 @@ export const EffektivitaetContent = () => {
                 <h6 className="font-medium text-gray-900 mb-1">Tools</h6>
                 <p className="text-sm text-gray-600">Passwort-Manager & smarter Browser für Ordnung und Shortcuts.</p>
               </div>
-            </div>
-            {/* Quiz: Einführung Effektivität und Effizienz als PM */}
-            <div id="test" className="pt-6">
-              <Quiz
-                title="Quiz: Einführung Effektivität und Effizienz als PM"
-                questions={introQuizQuestions}
-              />
             </div>
           </div>
         </div>
